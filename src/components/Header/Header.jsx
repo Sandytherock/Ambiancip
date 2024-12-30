@@ -27,7 +27,7 @@ const Header = () => {
                 <a href="#libraries">Libraries</a>
               </div>
             </div>
-            <a href="#admissions">Admissions & Aid &nbsp;/</a>
+            <a href="/admissions">Admissions & Aid &nbsp;/</a>
             <a href="/athletics-and-recreation">Athletics &nbsp;/</a>
             <div className="dropdown">
               <a href="/research-and-innovation" className="dropdown-link">
@@ -44,12 +44,10 @@ const Header = () => {
               </a>
               <div className="dropdown-menu">
                 <a href="#arts-culture">Arts & Culture</a>
-                <a href="#community-involvement">Community Involvement</a>
                 <a href="#diversity">Diversity</a>
                 <a href="#groups">Groups & Organizations</a>
                 <a href="#housing-dining">Housing & Dining</a>
                 <a href="#health-wellness">Health & Wellness</a>
-                <a href="#safety-security">Safety & Security</a>
               </div>
             </div>
             <div className="dropdown">

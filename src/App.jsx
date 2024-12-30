@@ -11,6 +11,7 @@ import Faq from './components/Faq/Faq';
 import Policies from './components/Policies/Policies';
 import Facts from './components/Facts/Facts';
 import Universityvalue from './components/Universityvalue/Universityvalue';
+import Admissions from './components/Admissionsandaid/Admissionsandaid';
 
 function App() {
   return (
@@ -46,6 +47,10 @@ function App() {
         <Routes>
           <Route path='/university-values' element={<Universityvalue/>}/>
         </Routes>
+        <Routes>
+          <Route path='/admissions' element={<Admissions/>}/>
+        </Routes>
+        
       </main>
     </Router>
   );

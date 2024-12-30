@@ -1,182 +1,208 @@
-ab{
-    /* padding: 20px; */
-
-    /* margin-left: 30px; */
-    font-family: 'Arial', sans-serif;
+.ab {
+  margin-top: 150px;
+  font-family: 'Arial', sans-serif;
 }
 
 .breadcrumbn {
-    gap: 10px;
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    align-items: center;
-    color: #767676;
-    font: 12px Roboto, Helvetica, Arial, sans-serif;
-    cursor: pointer;
-    outline: none;
-    padding-left: 20px;
+  gap: 10px;
+  padding-top: 20px;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  color: #767676;
+  font: 12px Roboto, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  outline: none;
+  padding-left: 40px;
 }
-  
-
-  .about-contenth {
-    display: flex;
-    /* flex-direction: column; */
-    gap: 100px;
-    margin-left: 20px;
-    margin-bottom: 100px;
-    
-
-  }
-  
- .about-items-columnh p{
-    font-size: 1.5rem;
-        line-height: 1.6;
-        max-width: 600px;
- }
-  /* Styling for the large image */
-  .large-image-itemh {
-    display: flex;
-    /* flex-direction: column; Align image and text vertically */
-    /* gap: 20px; */
-    width: 100%; /* Make sure the large image takes the full width */
-    flex-basis: 60%; /* This will take up 60% of the width */
-    /* display: flex; */
-    justify-content: center; 
-  }
-  
-  .large-imageh {
-    width: 50vw; 
-    height: 100vh; 
-    object-fit: cover; 
-    border-radius: px;
-    margin-top: -130px;
-  }
 
 
+.about-contenth {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 100px;
+  margin-left: 20px;
+  margin-bottom: 100px;
 
 
-  
-  .virtual-tour-sectiononetwo {
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    background: #F2F2F2;    
-    color: #fff;
-    margin-bottom: 230px;
-    /* margin-left: -30px; */
-    /* margin-right: -30px; */
+}
+
+.about-items-columnh p {
+  padding-top: 30px;
+  color: black;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+/* Styling for the large image */
+.large-image-itemh {
+  display: flex;
+  width: 100%;
+  /* Make sure the large image takes the full width */
+  flex-basis: 60%;
+  /* This will take up 60% of the width */
+  /* display: flex; */
+  justify-content: center;
+
+  & img {
+    padding-top: 50px;
   }
-  .text-containeronetwo {
-    text-align: left; /* टेक्स्ट को बाईं ओर अलाइन करें */
-  }
-  
-  .virtual-tour-sectiononetwo h2 {
-    color: #011F5B;
-    font-size: 36px;
-    margin-bottom: 20px;
-    font: 34px "EB Garamond",serif;
-    margin: 0px 0px 19px;
-  }
-  
-  .virtual-tour-sectiononetwo p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    max-width: 95%;
-    color: black;
-  }
-  
-  .buttonvirtualonetwo {
-    display: block;
-    margin-top: 20px;
-    padding: 24px 5px;
-    border: 1.5px solid rgba(118, 118, 118, 0.2);
-    color: #011F5B;
-    border-radius: 40px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-    margin-bottom: 100px;
-    width: 250px;
-    text-align: center; /* Center the text within the button */
-    font-size: 12px; /* Reduce font size */
-    white-space: nowrap; /* Prevent text from wrapping */
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  
-  .buttonvirtualonetwo:hover{
-    background-color:#011F5B;
-    color: white;
-  }
-  
-  .virtual-tour-sectiononetwo img {
-    max-width: 50%; /* इमेज को कंटेनर की अधिकतम 50% चौड़ाई दें */
-  }
+}
+
+.large-imageh {
+  width: 50vw;
+  height: 100vh;
+  object-fit: cover;
+  border-radius: px;
+  margin-top: -130px;
+}
 
 
 
 
 
-  .virtual-tour-sectionulwan {
-    display: flex; 
-    justify-content: space-between; 
-    /* align-items: center;  */
-    background-color: white; /* Background color */
-    color: black; /* Default text color */
-    padding: 20px; /* Add spacing around the container */
-    margin-bottom: 60px;
-    position: relative;
-  }
-  
-  .big-boxulwan {
-    width: 100%;
-    max-width: 4400px;
-    height: 400px; /* Height ko fixed kiya */
-    border: 5px solid #DFDFDF;
-    background: #FFF;
-    padding: 32px 18px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font: 1.6rem "Roboto", Helvetica, Arial, sans-serif;
-    color: #011F5B;
-    /* text-align: center; */
-    margin-top: -150px;
-  }
-  
+.virtual-tour-sectiononetwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: #F2F2F2;
+  color: #fff;
+  margin-bottom: 230px;
+  /* margin-left: -30px; */
+  /* margin-right: -30px; */
+}
+
+.text-containeronetwo {
+  text-align: left;
+  /* टेक्स्ट को बाईं ओर अलाइन करें */
+}
+
+.virtual-tour-sectiononetwo h2 {
+  color: #011F5B;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font: 34px "EB Garamond", serif;
+  margin: 0px 0px 19px;
+}
+
+.virtual-tour-sectiononetwo p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 95%;
+  color: black;
+}
+
+.buttonvirtualonetwo {
+  display: block;
+  margin-top: 20px;
+  padding: 24px 5px;
+  border: 1.5px solid rgba(118, 118, 118, 0.2);
+  color: #011F5B;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 100px;
+  width: 250px;
+  text-align: center;
+  /* Center the text within the button */
+  font-size: 12px;
+  /* Reduce font size */
+  white-space: nowrap;
+  /* Prevent text from wrapping */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.buttonvirtualonetwo:hover {
+  background-color: #011F5B;
+  color: white;
+}
+
+.virtual-tour-sectiononetwo img {
+  max-width: 50%;
+  /* इमेज को कंटेनर की अधिकतम 50% चौड़ाई दें */
+}
+
+
+
+
+
+.virtual-tour-sectionulwan {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center;  */
+  background-color: white;
+  /* Background color */
+  color: black;
+  /* Default text color */
+  padding: 20px;
+  /* Add spacing around the container */
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.big-boxulwan {
+  width: 100%;
+  max-width: 4400px;
+  height: 400px;
+  /* Height ko fixed kiya */
+  border: 5px solid #DFDFDF;
+  background: #FFF;
+  padding: 32px 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font: 1.6rem "Roboto", Helvetica, Arial, sans-serif;
+  color: #011F5B;
+  /* text-align: center; */
+  margin-top: -150px;
+}
+
 .big-boxulwan h1 {
-    font-family: "EB Garamond", serif;
-    font-size: 2.2rem;
-    color: #011F5B;
-    font-weight: 400;
-    margin: 0 0 2.4rem;
-  }
-  .big-boxulwan ul {
-    display: flex;
-    flex-wrap: wrap; /* Ensure items wrap to the next line if necessary */
-    list-style: none; /* Remove bullet points */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    gap: 10px; /* Add spacing between items */
+  font-family: "EB Garamond", serif;
+  font-size: 2.2rem;
+  color: #011F5B;
+  font-weight: 400;
+  margin: 0 0 2.4rem;
 }
 
-  .big-boxulwan li {
-    flex: 1 1 calc(33.33% - 10px); /* 3 items per row with space */
-    font-weight: 500;
-    color: #01256E;
-    text-decoration: none;
-    cursor: pointer;
-    outline: none;
-    font-family: "EB Garamond", serif;
-    font-size: 1.2rem;
-    text-align: left; /* Align text to the left */
-    margin-bottom: 20px;
-    border-bottom: 1px solid #DFDFDF; /* Add a thin line below each item */
-    padding-bottom: 8px; /* Add some space above the line */
+.big-boxulwan ul {
+  display: flex;
+  flex-wrap: wrap;
+  /* Ensure items wrap to the next line if necessary */
+  list-style: none;
+  /* Remove bullet points */
+  padding: 0;
+  /* Remove default padding */
+  margin: 0;
+  /* Remove default margin */
+  gap: 10px;
+  /* Add spacing between items */
 }
-  .big-boxulwan li:hover{
-    text-decoration: underline;
-  }
+
+.big-boxulwan li {
+  flex: 1 1 calc(33.33% - 10px);
+  /* 3 items per row with space */
+  font-weight: 500;
+  color: #01256E;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-family: "EB Garamond", serif;
+  font-size: 1.2rem;
+  text-align: left;
+  /* Align text to the left */
+  margin-bottom: 20px;
+  border-bottom: 1px solid #DFDFDF;
+  /* Add a thin line below each item */
+  padding-bottom: 8px;
+  /* Add some space above the line */
+}
+
+.big-boxulwan li:hover {
+  text-decoration: underline;
+}
 
 
 
@@ -184,64 +210,70 @@ ab{
 
 
 
-  .virtual-tour-sectiononetwoana {
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    background: #990000;
-    ;    
-    color: #fff;
-    /* margin-bottom: 23px; */
-    /* margin-left: -30px; */
-    /* margin-right: -30px; */
-  }
-  .text-containeronetwoana {
-    text-align: left; /* टेक्स्ट को बाईं ओर अलाइन करें */
-  }
-  
-  .virtual-tour-sectiononetwoana h2 {
-    color: white;
-    font-size: 36px;
-    margin-bottom: 20px;
-    font: 34px "EB Garamond",serif;
-    margin: 0px 0px 19px;
-  }
-  
-  .virtual-tour-sectiononetwoana p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    max-width: 95%;
-    color: #fff;
-  }
-  
-  .buttonvirtualonetwoana {
-    display: block;
-    margin-top: 20px;
-    padding: 24px 5px;
-    border: 1.5px solid rgba(230, 219, 219, 0.2);
-    color: #fff;
-    border-radius: 40px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-    margin-bottom: 100px;
-    width: 250px;
-    text-align: center; /* Center the text within the button */
-    font-size: 12px; /* Reduce font size */
-    white-space: nowrap; /* Prevent text from wrapping */
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  
-  .buttonvirtualonetwoana:hover{
-    background-color:#fff;
-    color:#011F5B;
-  }
-  
-  .virtual-tour-sectiononetwoana img {
-    max-width: 50%; /* इमेज को कंटेनर की अधिकतम 50% चौड़ाई दें */
-  }
+.virtual-tour-sectiononetwoana {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: #990000;
+  ;
+  color: #fff;
+  /* margin-bottom: 23px; */
+  /* margin-left: -30px; */
+  /* margin-right: -30px; */
+}
+
+.text-containeronetwoana {
+  text-align: left;
+  /* टेक्स्ट को बाईं ओर अलाइन करें */
+}
+
+.virtual-tour-sectiononetwoana h2 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font: 34px "EB Garamond", serif;
+  margin: 0px 0px 19px;
+}
+
+.virtual-tour-sectiononetwoana p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 95%;
+  color: #fff;
+}
+
+.buttonvirtualonetwoana {
+  display: block;
+  margin-top: 20px;
+  padding: 24px 5px;
+  border: 1.5px solid rgba(230, 219, 219, 0.2);
+  color: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 100px;
+  width: 250px;
+  text-align: center;
+  /* Center the text within the button */
+  font-size: 12px;
+  /* Reduce font size */
+  white-space: nowrap;
+  /* Prevent text from wrapping */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.buttonvirtualonetwoana:hover {
+  background-color: #fff;
+  color: #011F5B;
+}
+
+.virtual-tour-sectiononetwoana img {
+  max-width: 50%;
+  /* इमेज को कंटेनर की अधिकतम 50% चौड़ाई दें */
+}
 
 
 
@@ -251,62 +283,68 @@ ab{
 
 
 
-  
-  .virtual-tour-sectiononetwoanatwo {
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    background:#011F5B;
-    ;    
-    color: #fff;
-    /* margin-bottom: 23px; */
-    /* margin-left: -30px; */
-    /* margin-right: -30px; */
-  }
-  .text-containeronetwoanatwo {
-    text-align: left; /* टेक्स्ट को बाईं ओर अलाइन करें */
-  }
-  
-  .virtual-tour-sectiononetwoanatwo h2 {
-    color: white;
-    font-size: 36px;
-    margin-bottom: 20px;
-    font: 34px "EB Garamond",serif;
-    margin: 0px 0px 19px;
-  }
-  
-  .virtual-tour-sectiononetwoanatwo p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    max-width: 95%;
-    color: #fff;
-  }
-  
-  .buttonvirtualonetwoanatwo {
-    display: block;
-    margin-top: 20px;
-    padding: 24px 5px;
-    border: 1.5px solid rgba(230, 219, 219, 0.2);
-    color: #fff;
-    border-radius: 40px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-    margin-bottom: 100px;
-    width: 250px;
-    text-align: center; /* Center the text within the button */
-    font-size: 12px; /* Reduce font size */
-    white-space: nowrap; /* Prevent text from wrapping */
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  
-  .buttonvirtualonetwoanatwo:hover{
-    background-color:#fff;
-    color:#011F5B;
-  }
-  
-  .virtual-tour-sectiononetwoanatwo img {
-    max-width: 50%; /* इमेज को कंटेनर की अधिकतम 50% चौड़ाई दें */
-  }
+
+.virtual-tour-sectiononetwoanatwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: #011F5B;
+  ;
+  color: #fff;
+  /* margin-bottom: 23px; */
+  /* margin-left: -30px; */
+  /* margin-right: -30px; */
+}
+
+.text-containeronetwoanatwo {
+  text-align: left;
+  /* टेक्स्ट को बाईं ओर अलाइन करें */
+}
+
+.virtual-tour-sectiononetwoanatwo h2 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font: 34px "EB Garamond", serif;
+  margin: 0px 0px 19px;
+}
+
+.virtual-tour-sectiononetwoanatwo p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 95%;
+  color: #fff;
+}
+
+.buttonvirtualonetwoanatwo {
+  display: block;
+  margin-top: 20px;
+  padding: 24px 5px;
+  border: 1.5px solid rgba(230, 219, 219, 0.2);
+  color: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 100px;
+  width: 250px;
+  text-align: center;
+  /* Center the text within the button */
+  font-size: 12px;
+  /* Reduce font size */
+  white-space: nowrap;
+  /* Prevent text from wrapping */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.buttonvirtualonetwoanatwo:hover {
+  background-color: #fff;
+  color: #011F5B;
+}
+
+.virtual-tour-sectiononetwoanatwo img {
+  max-width: 50%;
+  /* इमेज को कंटेनर की अधिकतम 50% चौड़ाई दें */
+}
