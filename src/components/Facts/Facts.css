@@ -1,0 +1,1375 @@
+.about-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .breadcrumb {
+    gap: 10px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    color: #767676;
+    font: 12px Roboto, Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    padding-left: 20px;
+}
+
+.university h1{
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-family: "EB Garamond", serif;
+  color: black;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+  margin-bottom: 40px;
+
+}
+.university h1::after{
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -11px;
+  background: #990000;
+  width: 40px;
+  height: 4px;
+}
+
+.p{
+  font: 23px Roboto,Helvetica, Arial,sans-serif;
+  margin: 23px 0px 36px;
+  color: #000000;
+  /* font-size: 2rem; */
+  line-height: 1.6;
+  max-width: 1055px;
+  margin-bottom: 80px;
+}
+
+.student h2{
+  font-size: 3rem;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+    color: #011F5B;
+    letter-spacing: 0;
+    position: relative;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-top: 0;
+}
+.student h2::after{
+  content: '';
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    background: #011F5B;
+    opacity: .4;
+    width: 40px;
+    height: 4px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+.container-facts {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  margin-bottom: 20px;
+  position: relative; /* Relative position to place the line properly */
+}
+
+.container-facts::after {
+  content: '';
+  display: block;
+  position: absolute; /* Absolute positioning relative to the container */
+  bottom: -10px; /* Container ke niche line draw karega */
+  left: 0; /* Start from left */
+  width: 100%; /* Full width of the container */
+  height: 2px;
+  background: #f5f2f2; /* Line ka color */
+}
+
+.card {
+  display: inline-block; /* Card ko side-by-side display karne ke liye */
+  padding: 20px;
+  text-align: center;
+  width: 30%; /* Card ka width adjust karen */
+  box-sizing: border-box;
+  border-left: 1px solid #DFDFDF;; /* Left side mein line */
+  position: relative;
+}
+
+.card:first-child {
+  border-left: none; /* Pehle card ke liye border ko remove karna */
+}
+
+.card .number {
+  font-size: 50px;
+  font: 62px "EB Garamond",serif;
+  /* font-weight: bold; */
+  margin: 0px 0px 24px;
+}
+
+.card .label {
+  font-size: 16px;
+  color: #555;
+  font: 16px Roboto,Helvetica, Arial,sans-serif;
+}
+
+
+.number {
+  font-size: 14px;
+  margin: 0px 0px 24px;
+  color: #011F5B;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 14px;
+  color: #011F5B;
+  padding: 0px 15px;
+  font: 16px roboto,helvetica,arial,sans-serif;
+  margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+.virtual-tour-sectionul {
+  display: flex; /* Enable Flexbox layout */
+  justify-content: space-between; /* Create space between the two divs */
+  align-items: center; /* Vertically center align the content */
+  background-color: white; /* Background color */
+  color: black; /* Default text color */
+  padding: 20px; /* Add spacing around the container */
+  position: relative;
+}
+
+.text-containerul {
+  flex: 1; /* Take 50% of the width */
+  margin-right: 20px; /* Add spacing between the left and right divs */
+}
+
+.big-boxul {
+  width: 35%;
+  max-width: 500px;
+  height: 250px; /* Height ko fixed kiya */
+  border: 5px solid #DFDFDF;
+  background: #FFF;
+  padding: 32px 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font: 1.6rem "Roboto", Helvetica, Arial, sans-serif;
+  color: #011F5B;
+  text-align: center;
+  margin-top: -150px;
+}
+
+.virtual-tour-sectionul h2 {
+  font-size: 2.7rem;
+  line-height: 1.2;
+  font-family: "EB Garamond", serif;
+  color: #011F5B;
+  font-weight: 400;
+  position: relative;
+}
+.virtual-tour-sectionul p{
+  margin-top: 30px;
+}
+
+.underul::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  background: #011F5B;
+  opacity: 0.4;
+  width: 40px;
+  height: 4px;
+}
+
+.virtual-tour-sectionul ul {
+  padding-left: 20px;
+  
+}
+
+.virtual-tour-sectionul ul li {
+  
+  position: relative;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #434343;
+  letter-spacing: 0;
+  line-height: 1.647058824;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding-left: 20px; /* Add spacing to align text */
+}
+
+.virtual-tour-sectionul ul li::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  top: 10px;
+  left: 0px;
+  background: #011F5B;
+}
+
+.Admissionsul {
+  background-color: white;
+  color: #011F5B;
+  font-size: 0.8rem;
+  padding: 20px 50px;
+  border: 1px solid rgba(118, 118, 118, 0.2);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.Admissionsul:hover {
+  background-color: #03376d;
+  color: white;
+}
+
+.big-boxul h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 5.2rem;
+  color: #011F5B;
+  font-weight: 400;
+  margin: 0 0 2.4rem;
+}
+
+.big-boxul p {
+  font-family: "EB Garamond", serif;
+  font-size: 1.2rem;
+  color: #011F5B;
+  line-height: 1.5625;
+  margin: 0 0 2.4rem;
+}
+
+
+.undergraduateGradu{
+  position: relative;
+}
+
+.undergraduateGradu h2{
+  margin-top: 80px;
+  font-size: 2.7rem;
+  line-height: 1.2;
+  font-family: "EB Garamond", serif;
+  color: #011F5B;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+}
+
+.gra{
+  position: relative;
+}
+.gra::after{
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  background: #011F5B;
+  opacity: .4;
+  width: 40px;
+  height: 4px;
+}
+
+.virtual-tour-sectionnew {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color:#011F5B;
+  color: #fff;
+  margin-bottom: 150px;
+}
+.text-containernew {
+  text-align: left; /* टेक्स्ट को बाईं ओर अलाइन करें */
+}
+
+.virtual-tour-sectionnew h2 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font: 34px "EB Garamond",serif;
+  margin: 0px 0px 19px;
+}
+
+.virtual-tour-sectionnew p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 95%;
+}
+
+.buttonvirtualnew {
+  display: block;
+  margin-top: 20px;
+  padding: 24px 5px;
+  color: white;
+  border: 1.5px solid rgba(118, 118, 118, 0.2);
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 100px;
+  width: 200px;
+  text-align: center; /* Center the text within the button */
+  font-size: 14px; /* Reduce font size */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+
+.buttonvirtualnew:hover{
+  background-color: white;
+  color: #011F5B;
+}
+
+.virtual-tour-sectionnew img {
+  max-width: 50%; /* इमेज को कंटेनर की अधिकतम 50% चौड़ाई दें */
+}
+
+
+.virtual-tour-sectionsecond {
+  background-color: white;
+  color: black;
+  display: flex; /* Enable Flexbox */
+  justify-content: space-between; /* Space between left and right content */
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.text-containersecond {
+  width: 60%; /* Left side content ka width set kiya */
+  padding-right: 20px; /* Add some spacing to the right side */
+
+  & img{
+    height: 400px;
+    width: 700px;
+  }
+}
+
+
+
+.virtual-tour-sectionsecond h2 {
+  font-size: 2.7rem;
+  line-height: 1.2;
+  font-family: "EB Garamond", serif;
+  color: #011F5B;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+}
+.virtual-tour-sectionsecond p{
+  margin-top: 40px;
+}
+
+.undersecond::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  background: #011F5B;
+  opacity: .4;
+  width: 40px;
+  height: 4px;
+  /* margin-top: 50px; */
+  /* margin-bottom: -5px; */
+}
+
+
+
+
+
+.Admissionssecond {
+  background-color: white; /* Button ka background color */
+  color: #011F5B; /* Text ka color */
+  font-size: 0.8rem; /* Font size thoda bada kiya gaya hai */
+  padding: 20px 50px; /* Padding ko aur bada kiya gaya */
+  border: none; /* Border ko remove karna */
+  border-radius: 100px; /* Rounded corners */
+  cursor: pointer; /* Mouse pointer ko hand shape me change karna */
+  transition: all 0.3s ease; /* Smooth transition effect for hover */
+  background: none;
+  border: 1px solid rgba(118, 118, 118, 0.2);
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.Admissionssecond:hover {
+  background-color: #03376d; /* Hover effect - darker background */
+  color: white; /* Hover par text ka color white ho jayega */
+}
+
+
+
+.big-boxsecond {
+  width: 35%;
+  max-width: 500px;
+  height: 850px; /* Height ko fixed kiya */
+  border: 5px solid #DFDFDF;
+  background: #FFF;
+  padding: 32px 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font: 1.6rem "Roboto", Helvetica, Arial, sans-serif;
+  color: #011F5B;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.big-boxsecond .he{
+  font-family: "EB Garamond", serif;
+    /* font-size: rem; */
+    color: #011F5B;
+    position: relative;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+
+}
+
+.big-boxsecond .hw{
+  font-family: "EB Garamond", serif;
+  font-size: 1.9rem;
+  color: #011F5B;
+  line-height: 1.142857143;
+  margin-bottom: 1.3rem;
+}
+.big-boxsecond .h{
+  font-size: 16px;
+  color: #555;
+  font: 16px Roboto,Helvetica, Arial,sans-serif;
+}
+
+.virtual-tour-sectionsecond::after{
+  content: '';
+  display: block;
+  position: absolute; /* Absolute positioning relative to the container */
+  bottom: -70px; /* Container ke niche line draw karega */
+  left: 0; /* Start from left */
+  width: 100%; /* Full width of the container */
+  height: 2px;
+  background: #f5f2f2; /* Line ka color */ 
+  /* margin-top: 20px; */
+  /* margin-bottom: 10px; */
+}
+
+
+
+
+
+
+
+.undergraduateGradunew{
+  position: relative;
+}
+
+.undergraduateGradunew h2{
+  margin-top: 150px;
+  font-size: 2.7rem;
+  line-height: 1.2;
+  font-family: "EB Garamond", serif;
+  color: #011F5B;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+}
+.granew{
+  position: relative;
+}
+.granew::after{
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  background: #011F5B;
+  opacity: .4;
+  width: 40px;
+  height: 4px;
+}
+
+.containernew {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  margin-bottom: 20px;
+  position: relative; /* Relative position to place the line properly */
+}
+
+.undergraduateGradunew::after {
+  content: '';
+  display: block;
+  position: absolute; /* Absolute positioning relative to the container */
+  bottom: -10px; /* Container ke niche line draw karega */
+  left: 0; /* Start from left */
+  width: 100%; /* Full width of the container */
+  height: 2px;
+  background: #f5f2f2; /* Line ka color */
+}
+
+.cardnew {
+  display: inline-block; /* Card ko side-by-side display karne ke liye */
+  padding: 20px;
+  text-align: center;
+  width: 30%; /* Card ka width adjust karen */
+  box-sizing: border-box;
+  border-left: 1px solid #DFDFDF;; /* Left side mein line */
+  position: relative;
+}
+
+.cardnew:first-child {
+  border-left: none; /* Pehle card ke liye border ko remove karna */
+}
+
+.cardnew .numbernew {
+  font-size: 50px;
+  font: 62px "EB Garamond",serif;
+  /* font-weight: bold; */
+  margin: 0px 0px 24px;
+}
+
+.cardnew .labelnew {
+  font-size: 16px;
+  color: #555;
+  font: 16px Roboto,Helvetica, Arial,sans-serif;
+}
+
+
+.numbernew {
+  font-size: 14px;
+  margin: 0px 0px 24px;
+  color: #011F5B;
+  margin-bottom: 10px;
+}
+
+.labelnew {
+  font-size: 14px;
+  color: #011F5B;
+  padding: 0px 15px;
+  font: 16px roboto,helvetica,arial,sans-serif;
+  margin-bottom: 70px;
+}
+
+
+.Admissionssecondnew {
+  background-color: white; /* Button ka background color */
+  color: #011F5B; /* Text ka color */
+  font-size: 1rem; /* Font size thoda bada kiya gaya hai */
+  padding: 20px 50px; /* Padding ko aur bada kiya gaya */
+  border: none; /* Border ko remove karna */
+  border-radius: 100px; /* Rounded corners */
+  cursor: pointer; /* Mouse pointer ko hand shape me change karna */
+  transition: all 0.3s ease; /* Smooth transition effect for hover */
+  background: none;
+  border: 1px solid rgba(118, 118, 118, 0.2);
+  /* font-weight: bold; */
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+.Admissionssecondnew:hover {
+  background-color: #03376d; /* Hover effect - darker background */
+  color: white; /* Hover par text ka color white ho jayega */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.virtual-tour-sectionthird {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.text-containerthird {
+  width: 60%; /* Text content will take 60% width */
+  margin-left: -20px;
+  padding-right: 20px;
+}
+
+.virtual-tour-sectionthird h2 {
+  font-size: 2.7rem;
+  line-height: 1.2;
+  font-family: "EB Garamond", serif;
+  color: #011F5B;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+}
+
+.underthird {
+  position: relative;
+}
+
+.underthird::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  background: #011F5B;
+  opacity: .4;
+  width: 40px;
+  height: 4px;
+}
+
+.containernewthird {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.cardnewthird {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+  box-sizing: border-box;
+  border-left: 1px solid #DFDFDF;
+  position: relative;
+}
+
+.cardnewthird:first-child {
+  border-left: none;
+}
+
+.cardnewthird .numbernewthird {
+  font-size: 50px;
+  font: 62px "EB Garamond", serif;
+  margin: 0px 0px 12px; /* Reduced bottom margin for better alignment */
+}
+
+.cardnewthird .labelnewthird {
+  font-size: 16px;
+  color: #555;
+  font: 16px Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.4; /* Increase line height for better spacing */
+  margin-top: 10px; /* Add space between number and label */
+}
+
+.Admissionsthird {
+  background-color: white;
+  color: #011F5B;
+  font-size: 0.8rem;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: none;
+  border: 1px solid rgba(118, 118, 118, 0.2);
+  font-weight: bold;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.Admissionsthird:hover {
+  background-color: #03376d;
+  color: white;
+}
+
+/* Image size */
+.virtual-tour-sectionthird img {
+  width: 95%; /* Set image width to 55% */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 50px;
+  margin-top: 120px;
+}
+
+/* Line under the section */
+
+
+
+
+
+
+
+
+
+
+
+
+.virtual-tour-sectionnewdouble {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color:#011F5B;
+  color: #fff;
+  margin-bottom: 150px;
+}
+.text-containernewdouble {
+  text-align: left; /* टेक्स्ट को बाईं ओर अलाइन करें */
+}
+
+.virtual-tour-sectionnewdouble h2 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font: 34px "EB Garamond",serif;
+  margin: 0px 0px 19px;
+}
+.virtual-tour-sectionnewdouble h4{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  letter-spacing: 1.6px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  margin: 13px 15px 17px 0;
+  display: inline-block;
+  color: white;
+}
+
+.virtual-tour-sectionnewdouble p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 95%;
+}
+
+.buttonvirtualnewdouble {
+  display: block;
+  margin-top: 20px;
+  padding: 24px 5px;
+  color: white;
+  border: 1.5px solid rgba(118, 118, 118, 0.2);
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 100px;
+  width: 200px;
+  text-align: center; /* Center the text within the button */
+  font-size: 14px; /* Reduce font size */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+
+.buttonvirtualnewdouble:hover{
+  background-color: white;
+  color: #011F5B;
+}
+
+.virtual-tour-sectionnewdouble img {
+  max-width: 50%; /* इमेज को कंटेनर की अधिकतम 50% चौड़ाई दें */
+}
+
+
+
+
+
+
+
+
+.virtual-tour-sectionnewdoublenew {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color:#011F5B;
+  color: #fff;
+  margin-bottom: 150px;
+}
+.text-containernewdoublenew {
+  text-align: left; /* टेक्स्ट को बाईं ओर अलाइन करें */
+}
+
+.virtual-tour-sectionnewdoublenew h2 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font: 34px "EB Garamond",serif;
+  margin: 0px 0px 19px;
+}
+
+.virtual-tour-sectionnewdoublenew p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 95%;
+}
+
+.buttonvirtualnewdoublenew {
+  display: block;
+  margin-top: 20px;
+  padding: 24px 5px;
+  color: white;
+  border: 1.5px solid rgba(118, 118, 118, 0.2);
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 100px;
+  width: 200px;
+  text-align: center; /* Center the text within the button */
+  font-size: 14px; /* Reduce font size */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+
+.buttonvirtualnewdoublenew:hover{
+  background-color: white;
+  color: #011F5B;
+}
+
+.virtual-tour-sectionnewdoublenew img {
+  max-width: 50%; /* इमेज को कंटेनर की अधिकतम 50% चौड़ाई दें */
+}
+
+
+
+
+
+
+
+
+
+.virtual-tour-sectionsecondthird {
+  background-color: white;
+  color: black;
+  display: flex; /* Enable Flexbox */
+  justify-content: space-between; /* Space between left and right content */
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.text-containersecondthird {
+  width: 60%; /* Left side content ka width set kiya */
+  padding-right: 20px; /* Add some spacing to the right side */
+}
+
+
+
+.virtual-tour-sectionsecondthird h2 {
+  font-size: 2.7rem;
+  line-height: 1.2;
+  font-family: "EB Garamond", serif;
+  color: #011F5B;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+}
+.virtual-tour-sectionsecondthird p{
+  margin-top: 40px;
+}
+
+.undersecondthird::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  background: #011F5B;
+  opacity: .4;
+  width: 40px;
+  height: 4px;
+  /* margin-top: 50px; */
+  /* margin-bottom: -5px; */
+}
+
+
+
+.Admissionssecondthird {
+  background-color: white;
+  color: #011F5B;
+  font-size: 0.8rem;
+  padding: 20px 50px;
+  border: 1px solid rgba(118, 118, 118, 0.2);
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+
+.big-boxsecondthird {
+  width: 35%;
+  max-width: 500px;
+  height: auto;
+  border: 1px solid #DFDFDF;
+  background: #FFF;
+  padding: 32px 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font: 1.6rem "Roboto", Helvetica, Arial, sans-serif;
+  color: #011F5B;
+  text-align: center;
+  margin-top: 90px;
+  position: relative;
+}
+.big-boxsecondthird img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0;
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+  cursor: pointer;
+}
+
+.big-boxsecondthird .Q {
+  color: #011F5B;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  text-align: left;
+  margin-inline-start: 15px;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth underline effect */
+  cursor: pointer;
+}
+
+.big-boxsecondthird .P {
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2;
+  margin-inline-start: 15px;
+  text-align: left;
+}
+
+
+.virtual-tour-sectionsecondthird::after{
+  content: '';
+  display: block;
+  position: absolute; /* Absolute positioning relative to the container */
+  bottom: -70px; /* Container ke niche line draw karega */
+  left: 0; /* Start from left */
+  width: 100%; /* Full width of the container */
+  height: 2px;
+  background: #f5f2f2; /* Line ka color */ 
+  /* margin-top: 20px; */
+  /* margin-bottom: 10px; */
+}
+
+
+
+
+
+
+
+
+.big-boxsecondfour {
+  width: 100%; /* Box ki width ko parent container ke 100% tak badhaye */
+  max-width: 700px; /* Maximum width set kare */
+  height: 250px; /* Auto height rakh kar content ke according adjust kare */
+  border: 5px solid #DFDFDF;
+  background: #FFF;
+  padding: 32px 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font: 1.6rem "Roboto", Helvetica, Arial, sans-serif;
+  color: #011F5B;
+  text-align: center;
+  margin-top: 90px;
+}
+
+
+.big-boxsecondfour .he{
+  font-size: 1rem;
+    padding: 0 15px;
+    opacity: 0.68;
+    color: #011f5b;
+    line-height: 1.5625;
+    text-align: center;
+}
+.big-boxsecondfour .hw{
+  font-family: "EB Garamond", serif;
+  font-size: 4.2rem;
+  color: #011f5b;
+  letter-spacing: 0;
+  line-height: 0.64516129;
+  font-weight: 400;
+  margin: 0 0 2.4rem;
+  margin-top: 20px;
+}
+
+.big-boxsecondthird:hover img,
+.big-boxsecondthird:hover .Q,
+.big-boxsecondthird:hover .Admissionssecondthird {
+  transform: scale(1.1); /* Zoom effect on image */
+  text-decoration: underline; /* Underline on title */
+  color: #03376d; /* Change text color */
+}
+
+.big-boxsecondthird:hover .Admissionssecondthird {
+  background-color: #03376d; /* Change button background */
+  color: white; /* Change button text color */
+}
+
+
+
+
+
+
+.about-section {
+  background: white;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+}
+
+.about-section > div {
+  width: 32%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  position: relative; /* Position content inside */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.about-section > div:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.about-section p {
+  font-size: 14px;
+  color: #434343;
+  margin-bottom: 2em;
+  font-size: 17px;
+  line-height: 1.647058824;
+}
+
+.about-section img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover; /* Maintain aspect ratio without distortion */
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.about-section img:hover {
+  transform: none;
+}
+
+/* Position the content outside the box */
+.about-section > div p {
+  position: absolute;
+  bottom: -20px; 
+  /* left: 20px; */
+  width: calc(100% - 40px);
+  /* font-size: 20px; */
+  /* color: #434343; */
+  font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #011F5B;
+    line-height: 1.3;
+    /* margin-bottom: px; */
+}
+
+.students h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  color: #011F5B;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.students h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  background: #011F5B;
+  opacity: .4;
+  width: 40px;
+  height: 4px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+.undergraduateGradunewfirst{
+  position: relative;
+}
+
+.undergraduateGradunewfirst h2{
+  margin-top: 150px;
+  font-size: 2.7rem;
+  line-height: 1.2;
+  font-family: "EB Garamond", serif;
+  color: #011F5B;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+}
+.granewfirst{
+  position: relative;
+}
+.granewfirst::after{
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  background: #011F5B;
+  opacity: .4;
+  width: 40px;
+  height: 4px;
+}
+
+.containernewfirst {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  margin-bottom: 20px;
+  position: relative; /* Relative position to place the line properly */
+}
+
+.undergraduateGradunewfirst::after {
+  content: '';
+  display: block;
+  position: absolute; /* Absolute positioning relative to the container */
+  bottom: -30px; /* Container ke niche line draw karega */
+  left: 0; /* Start from left */
+  width: 100%; /* Full width of the container */
+  height: 2px;
+  background: #f5f2f2; /* Line ka color */
+  /* margin-bottom: -7px; */
+  /* margin-top: 20px; */
+}
+
+.cardnewfirst {
+  display: inline-block; /* Card ko side-by-side display karne ke liye */
+  padding: 20px;
+  text-align: center;
+  width: 30%; /* Card ka width adjust karen */
+  box-sizing: border-box;
+  border-left: 1px solid #DFDFDF;; /* Left side mein line */
+  position: relative;
+}
+
+.cardnewfirst:first-child {
+  border-left: none; /* Pehle card ke liye border ko remove karna */
+}
+
+.cardnewfirst .numbernewfirst {
+  font-size: 50px;
+  font: 62px "EB Garamond",serif;
+  /* font-weight: bold; */
+  margin: 0px 0px 24px;
+}
+
+.cardnewfirst .labelnewfirst {
+  font-size: 16px;
+  color: #555;
+  font: 16px Roboto,Helvetica, Arial,sans-serif;
+}
+
+
+.numbernewfirst {
+  font-size: 14px;
+  margin: 0px 0px 24px;
+  color: #011F5B;
+  margin-bottom: 10px;
+}
+
+.labelnewfirst {
+  font-size: 14px;
+  color: #011F5B;
+  padding: 0px 15px;
+  font: 16px roboto,helvetica,arial,sans-serif;
+  margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+.virtual-tour-sectionsecondthirdfour {
+  background-color: white;
+  color: black;
+  display: flex; /* Enable Flexbox */
+  justify-content: space-between; /* Space between left and right content */
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.text-containersecondthirdfour {
+  width: 60%; /* Left side content ka width set kiya */
+  padding-right: 20px; /* Add some spacing to the right side */
+}
+
+
+
+.virtual-tour-sectionsecondthirdfour h2 {
+  font-size: 2.7rem;
+  line-height: 1.2;
+  font-family: "EB Garamond", serif;
+  color: #011F5B;
+  letter-spacing: 0;
+  position: relative;
+  font-weight: 400;
+}
+.virtual-tour-sectionsecondthirdfour p{
+  margin-top: 40px;
+}
+
+.undersecondthirdfour::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  background: #011F5B;
+  opacity: .4;
+  width: 40px;
+  height: 4px;
+  /* margin-top: 50px; */
+  /* margin-bottom: -5px; */
+}
+
+.Admissionssecondthirdfour {
+  background-color: white;
+  color: #011F5B;
+  font-size: 0.8rem;
+  padding: 20px 50px;
+  border: 1px solid rgba(118, 118, 118, 0.2);
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.big-boxsecondthirdfour {
+  width: 35%;
+  max-width: 500px;
+  height: auto;
+  border: 1px solid #DFDFDF;
+  background: #FFF;
+  padding: 32px 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font: 1.6rem "Roboto", Helvetica, Arial, sans-serif;
+  color: #011F5B;
+  text-align: center;
+  margin-top: 90px;
+  position: relative;
+}
+.big-boxsecondthirdfour img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0;
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+  cursor: pointer;
+}
+
+.big-boxsecondthirdfour .Q {
+  color: #011F5B;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  text-align: left;
+  margin-inline-start: 15px;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth underline effect */
+  cursor: pointer;
+}
+
+.big-boxsecondthirdfour .P {
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2;
+  margin-inline-start: 15px;
+  text-align: left;
+}
+
+
+
+
+
+.big-boxsecondfourfour {
+  width: 100%; /* Box ki width ko parent container ke 100% tak badhaye */
+  max-width: 700px; /* Maximum width set kare */
+  height: 250px; /* Auto height rakh kar content ke according adjust kare */
+  border: 5px solid #DFDFDF;
+  background: #FFF;
+  padding: 32px 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font: 1.6rem "Roboto", Helvetica, Arial, sans-serif;
+  color: #011F5B;
+  text-align: center;
+  margin-top: 90px;
+}
+
+
+.big-boxsecondfourfour .he{
+  font-size: 1rem;
+    padding: 0 15px;
+    opacity: 0.68;
+    color: #011f5b;
+    line-height: 1.5625;
+    text-align: center;
+}
+.big-boxsecondfourfour .hw{
+  font-family: "EB Garamond", serif;
+  font-size: 4.2rem;
+  color: #011f5b;
+  letter-spacing: 0;
+  line-height: 0.64516129;
+  font-weight: 400;
+  margin: 0 0 2.4rem;
+  margin-top: 20px;
+}
+
+.big-boxsecondthirdfour:hover img,
+.big-boxsecondthirdfour:hover .Q,
+.big-boxsecondthirdfour:hover .Admissionssecondthirdfour {
+  transform: scale(1.1); /* Zoom effect on image */
+  text-decoration: underline; /* Underline on title */
+  color: #03376d; /* Change text color */
+}
+
+.big-boxsecondthirdfour:hover .Admissionssecondthirdfour {
+  background-color: #03376d; /* Change button background */
+  color: white; /* Change button text color */
+}
+

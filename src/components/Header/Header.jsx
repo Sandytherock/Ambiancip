@@ -53,14 +53,14 @@ const Header = () => {
               </div>
             </div>
             <div className="dropdown">
-              <a href="#about" className="dropdown-link">
+              <a href="/about" className="dropdown-link">
                 About &nbsp;<i className="fas fa-chevron-down"></i>
               </a>
               <div className="dropdown-menu">
-                <a href="#faq">FAQ</a>
-                <a href="#policies">Policies</a>
-                <a href="#facts">Facts</a>
-                <a href="#university-values">University Values</a>
+                <a href="/faq">FAQ</a>
+                <a href="/policies">Policies</a>
+                <a href="/facts">Facts</a>
+                <a href="/university-values">University Values</a>
               </div>
             </div>
           </nav>

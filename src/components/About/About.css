@@ -1,0 +1,554 @@
+.about-container {
+  margin-top: 150px;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.breadcrumb {
+  gap: 10px;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  color: #767676;
+  font: 12px Roboto, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  outline: none;
+  padding-left: 20px;
+}
+
+.line-about {
+  color: black;
+  position: relative;
+}
+
+.line-about::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -11px;
+  background-color: #990000;
+  /* Red color */
+  width: 40px;
+  /* Width of the line */
+  height: 4px;
+  /* Height of the line */
+
+}
+
+
+.about-container h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font: 60px "EB Garamood", serif;
+  font-family: "EB Garamond", serif;
+}
+
+.about-item h2 {
+  color: #011F5B;
+  ;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.about-item h2:hover {
+  text-decoration: underline;
+  /* Underline on hover */
+}
+
+/* .breadcrumb {
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+   */
+.about-content {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 100px;
+}
+
+.about-items-column {
+  display: flex;
+  flex-direction: column;
+  /* Stack the three images vertically */
+  gap: 50px;
+  flex-basis: 40%;
+}
+
+.about-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  align-items: center;
+}
+
+.about-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.about-item h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.about-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Styling for the large image */
+.large-image-item {
+  display: flex;
+  /* flex-direction: column; Align image and text vertically */
+  /* gap: 20px; */
+  width: 100%;
+  /* Make sure the large image takes the full width */
+  flex-basis: 60%;
+  /* This will take up 60% of the width */
+  /* display: flex; */
+  justify-content: center;
+}
+
+.large-image {
+  /* padding: ; */
+  width: 50vw;
+  /* Make it take full width */
+  height: 100vh;
+  /* Let the height adjust according to the image */
+  object-fit: cover;
+  /* Maintain aspect ratio */
+  border-radius: px;
+  margin-top: -100px;
+}
+
+
+
+.section-2 {
+  color: black;
+  margin: 23px 0px 36px;
+  font: 23px roboto, helvetica, arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  max-width: 1000px;
+}
+
+.penn {
+  text-align: center;
+  color: #011F5B;
+  ;
+  position: relative;
+  /* bottom: -15px; */
+}
+
+.penn h1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  background: #011F5B;
+  opacity: .4;
+  width: 40px;
+  height: 4px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.container-about {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  /* font: 16px Roboto,Helvetica,Arial,sans-serif; */
+}
+
+.card {
+  display: inline-block;
+  /* Card ko side-by-side display karne ke liye */
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+  /* Card ka width adjust karen */
+  box-sizing: border-box;
+  border-left: 1px solid #DFDFDF;
+  ;
+  /* Left side mein line */
+}
+
+.card:first-child {
+  border-left: none;
+  /* Pehle card ke liye border ko remove karna */
+}
+
+.card .number {
+  font-size: 50px;
+  font: 62px "EB Garamond", serif;
+  /* font-weight: bold; */
+  margin: 0px 0px 24px;
+}
+
+.card .label {
+  font-size: 16px;
+  color: #555;
+  font: 16px Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+.number {
+  font-size: 14px;
+  margin: 0px 0px 24px;
+  color: #011F5B;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 14px;
+  color: #011F5B;
+  padding: 0px 15px;
+  font: 16px roboto, helvetica, arial, sans-serif;
+
+}
+
+.button {
+  display: block;
+  margin-top: 20px;
+  padding: 24px 55px;
+  background-color: white;
+  /* Inside button color white */
+  color: #011F5B;
+  /* Text color */
+  border: 1px solid rgba(118, 118, 118, 0.2);
+  ;
+  /* Black border */
+  border-radius: 40px;
+  /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  /* Smooth transition */
+  margin-bottom: 100px;
+
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #011F5B;
+  /* Blue background on hover */
+  color: white;
+  /* Text color changes to white */
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  /* Horizontally center */
+  align-items: center;
+  /* Vertically center */
+  font-size: 13px;
+  /* height: 100vh; Full viewport height */
+}
+
+
+.image-row {
+  width: 100%;
+  /* Adjust width of images */
+  border: 1px solid #ccc;
+  /* Optional: Border around images */
+  border-radius: 10px;
+  /* Optional: Rounded corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  /* Optional: Shadow effect */
+}
+
+
+
+
+.about-sectionone {
+  background: #F2F2F2;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+}
+
+.about-sectionone>div {
+  width: 32%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  position: relative;
+  /* Keep content inside */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  height: auto;
+  /* Adjust the height to fit content */
+}
+
+.about-sectionone>div:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  /* Shadow effect */
+}
+
+.about-sectionone>div:hover h2 {
+  text-decoration: underline;
+  /* Img ya div hover karne par h2 underline */
+  color: #011F5B;
+}
+
+.about-sectionone h2 {
+  color: #011F5B;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding-top: 30px;
+  position: relative;
+  /* Ensure the heading stays inside the div */
+  z-index: 1;
+  /* Keep the heading above the image */
+}
+
+.about-sectionone p {
+  font-size: 14px;
+  color: #434343;
+  margin-bottom: 2em;
+  font-size: 17px;
+  line-height: 1.647058824;
+  position: relative;
+  /* position: absolute; */
+  z-index: 1;
+  /* Ensure the paragraph stays above the image */
+}
+
+.about-sectionone img {
+  width: 100%;
+  height: 200px;
+  /* Fixed height for images */
+  object-fit: cover;
+  /* Maintain the aspect ratio */
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  /* Smooth zoom effect */
+  z-index: 0;
+  /* Keep image below text */
+}
+
+.about-sectionone img:hover {
+  transform: scale(1.05);
+  /* Image zoom */
+}
+
+
+
+
+.about-penn-section {
+  display: flex;
+  /* Horizontal alignment for image and content */
+  align-items: flex-start;
+  /* Align items at the top */
+  justify-content: flex-start;
+  /* Align content to the left */
+  padding: 1px;
+  gap: 100px;
+  /* Space between the image section and right content */
+}
+
+.image-container-about {
+  display: flex;
+  flex-direction: column;
+  /* Arrange image and paragraph vertically */
+  align-items: flex-start;
+  /* Align content to the left */
+  max-width: 50%;
+  /* Adjust the image section width */
+}
+
+.image-container-about img {
+  width: 100%;
+  /* Image will take up full container width */
+  max-width: 590px;
+  /* Adjust this as per your requirement */
+  height: auto;
+  /* Maintain aspect ratio */
+  object-fit: cover;
+  /* Ensures the image covers the area */
+  margin-bottom: 10px;
+}
+
+.image-container-about p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2;
+  margin-bottom: 2em;
+}
+
+.about-penn-section h2 {
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: 3.0rem;
+  line-height: 1.235294118;
+  margin: 0 0 19px;
+  color: #011F5B;
+}
+
+.about-penn-section>div>ul {
+  margin: 0 0 21px !important;
+  gap: 100px;
+  display: block !important;
+  font-size: 1.1em !important;
+  color: #011F5B !important;
+  font-weight: 500 !important;
+  margin-block-start: 1em !important;
+  margin-block-end: 1em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  unicode-bidi: isolate !important;
+}
+
+.about-penn-section>div>ul>li {
+  margin: 0 0 31px !important;
+  /* display: block !important;
+    font-size: 1.1em !important;
+    color: #011F5B !important;
+    font-weight: 500 !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+    unicode-bidi: isolate !important; */
+  /* font-size: 62.5%; */
+  color: #011F5B !important;
+  font-family: "EB Garamond", serif;
+  font-size: 1.2rem;
+  letter-spacing: 0;
+  line-height: 1.3;
+  border-bottom: 1px solid #DFDFDF;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+}
+
+.about-penn-section h3 {
+  margin: 0 0 21px;
+  padding: 0;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #011F5B;
+  letter-spacing: 1.47px;
+  position: relative;
+  text-transform: uppercase;
+
+  /* display: block; */
+  /* font-size: 1.17em; */
+  /* margin-block-start: 1em; */
+  /* margin-block-end: 1em; */
+  /* margin-inline-start: 0px; */
+  margin-inline-end: 0px;
+  font-weight: bold;
+  /* unicode-bidi: isolate; */
+}
+
+.about-penn-section h3::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 4px;
+  background: rgba(1, 31, 91, 0.4);
+  position: absolute;
+  bottom: -7px;
+}
+
+.about-penn-section a {
+  text-decoration: none;
+  color: #011F5B;
+}
+
+.about-penn-section a:hover {
+  text-decoration: underline;
+}
+
+.about-penn-section p {
+  margin-top: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.about-penn-section li {
+  position: relative;
+  padding-bottom: 30px;
+  color: #011F5B;
+}
+
+
+
+
+
+.virtual-tour-sectionone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #011F5B;
+  color: #fff;
+  /* margin-left: -30px; */
+  /* margin-right: -30px; */
+}
+
+.text-containerone {
+  text-align: left;
+  /* टेक्स्ट को बाईं ओर अलाइन करें */
+}
+
+.virtual-tour-sectionone h2 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font: 34px "EB Garamond", serif;
+  margin: 0px 0px 19px;
+}
+
+.virtual-tour-sectionone p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 95%;
+  color: #FFF;
+}
+
+.buttonvirtualone {
+  display: block;
+  margin-top: 20px;
+  padding: 24px 5px;
+  color: white;
+  border: 1.5px solid rgba(118, 118, 118, 0.2);
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 100px;
+  width: 200px;
+  text-align: center;
+  /* Center the text within the button */
+  font-size: 14px;
+  /* Reduce font size */
+  white-space: nowrap;
+  /* Prevent text from wrapping */
+}
+
+
+.buttonvirtualone:hover {
+  background-color: white;
+  color: #011F5B;
+}
+
+.virtual-tour-sectionone img {
+  max-width: 50%;
+  /* इमेज को कंटेनर की अधिकतम 50% चौड़ाई दें */
+}

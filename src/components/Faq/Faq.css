@@ -1,0 +1,116 @@
+.faq-main{
+    margin-top: 150px;
+}
+
+/* Breadcrumb styling */
+.breadcrumb {
+    gap: 10px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    color: #767676;
+    font: 12px Roboto, Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    padding-left: 20px;
+}
+
+/* Main Section styling */
+.sp {
+    padding-left: 20px;
+}
+
+.sp h1 {
+    color: #011F5B;
+    position: relative;
+}
+
+.sp h1::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -11px;
+    background: #990000;
+    width: 40px;
+    height: 4px;
+}
+
+.sp p {
+    font-size: 1.5rem;
+    line-height: 1.88;
+}
+
+/* FAQ container styling */
+.faq-container {
+    width: 100%;
+    margin: -55px;
+    padding: 50px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* FAQ item styling */
+.faq-item {
+    margin: 10px 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    background: none;
+    display: block;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    color: black;
+    padding: 18px 10px;
+}
+
+.faq-item:hover {
+    background-color: #f9f9f9;
+}
+
+.faq-item.active {
+    background-color: #011F5B;;
+    border-color: #011F5B;;
+    color: white;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+/* FAQ question styling */
+/* FAQ question styling */
+.faq-question {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    /* Remove the line under each question */
+    border-bottom: none;  
+}
+
+/* Styling for the icon */
+.faq-icon {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: #990000;;  /* Default icon color */
+}
+
+/* When answer is expanded, change the icon color */
+.faq-icon.active-icon {
+    color: white;  /* White color for the icon when active */
+}
+
+/* FAQ answer styling */
+.faq-answer {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: white;
+    padding: 10px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.faq-question .fa-angle-down {
+    font-size: 1.2rem;
+}

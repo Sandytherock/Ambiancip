@@ -1,0 +1,99 @@
+.breadcrumb {
+    gap: 10px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    color: #767676;
+    font: 12px Roboto, Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    padding-left: 20px;
+}
+
+.first{
+    margin-top: 150px;
+    padding-left: 5rem;
+
+}
+.contain{
+    color: black;
+    max-width: 1315px;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.contain h1 {
+    position: relative;  /* Add this line */
+}
+
+.contain h1 span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -11px;
+    background: #990000;
+    width: 40px;
+    height: 4px;
+}
+
+.pf{
+    color: black;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+}
+
+.ps{
+    color: black;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    max-width: 1055px;
+    margin-bottom: 40px;
+}
+.pe{
+    color: #011F5B;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.pe:hover{
+    text-decoration: none;
+}
+.university h2{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-family: "EB Garamond", serif;
+    color: #011F5B;
+    letter-spacing: 0;
+    position: relative;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+
+.university h2::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    background: #011F5B;
+    opacity: .4;
+    width: 40px;
+    height: 4px;
+}
+
+.principle{
+    color: #011F5B;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    color: #011F5B;
+    font-family: "EB Garamond", serif;
+    cursor: pointer;
+}
+.principle:hover {
+    text-decoration: none;
+}
+.prin{
+    color: black;
+    font-size:1.1rem;
+    margin-bottom: 35px;
+}
