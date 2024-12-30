@@ -18,9 +18,7 @@ function Admissionsandaid() {
                     <div className="about-items-columnh">
                         {/* The three smaller images in a column */}
                         <p>Penn (also known as UPenn) is committed to making its inclusive, innovative, and impactful Ivy League education available to the best and brightest students, regardless of their economic circumstances. A generous financial aid budget and inclusive aid policies make matriculating at Penn an attainable goal for students from the widest possible range of backgrounds. Every day, Penn embodies this truth: Our unique perspectives and backgrounds brought together make us strong, resilient, and singularly prepared to define the future.</p>
-
                     </div>
-
 
                     {/* The large image on the side */}
                     <div className="large-image-itemh">

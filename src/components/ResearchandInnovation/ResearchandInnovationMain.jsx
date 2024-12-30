@@ -14,6 +14,7 @@ import Footer from "../Footer/Footer";
 
 
 
+
 const RESEARCH_DESCRIPTION = `With more than $1.37 billion in annual R&D expenditures, Penn is one of the nation's top 
 research universities, not only generating important new knowledge in the fields of medicine, 
 technology, business, science, and beyond, but applying this knowledge to improve the lives of 

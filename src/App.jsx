@@ -12,6 +12,7 @@ import Policies from './components/Policies/Policies';
 import Facts from './components/Facts/Facts';
 import Universityvalue from './components/Universityvalue/Universityvalue';
 import Admissions from './components/Admissionsandaid/Admissionsandaid';
+import Arts from './components/Art&Culture/Arts';
 
 function App() {
   return (
@@ -49,6 +50,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/admissions' element={<Admissions/>}/>
+        </Routes>
+        <Routes>
+          <Route path='/arts' element={<Arts/>}/>
         </Routes>
         
       </main>

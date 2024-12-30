@@ -1,0 +1,16 @@
+.arts-container{
+    margin-top: 150px;
+}
+.arts-headdisc{
+    color: black;
+    text-align: center;
+    padding: 30px;
+    & h2{
+        font-size: 3rem;
+        font-family: "EB Garamond", serif;
+    }
+    & p{
+        padding-top: 30px;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+    }
+}

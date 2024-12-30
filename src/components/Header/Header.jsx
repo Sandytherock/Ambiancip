@@ -43,7 +43,7 @@ const Header = () => {
                 Life at Penn &nbsp;<i className="fas fa-chevron-down"></i> &nbsp;/
               </a>
               <div className="dropdown-menu">
-                <a href="#arts-culture">Arts & Culture</a>
+                <a href="/arts">Arts & Culture</a>
                 <a href="#diversity">Diversity</a>
                 <a href="#groups">Groups & Organizations</a>
                 <a href="#housing-dining">Housing & Dining</a>
