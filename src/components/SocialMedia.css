@@ -1,0 +1,17 @@
+.socialcard {
+    display: inline-block; /* For proper alignment */
+}
+
+.border-wrap {
+    display: inline-block; /* Ensures proper wrapping for border */
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 50%; /* Apply rounded border */
+}
+
+.border-wrap img {
+    display: block; /* Remove inline space below image */
+    height: 30px;
+    width: 30px;
+    border-radius: 0; /* No border-radius on image */
+}

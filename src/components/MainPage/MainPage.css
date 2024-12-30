@@ -1,0 +1,551 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  /* Disable horizontal scrolling */
+}
+
+.main-page{
+  width: 100svw;
+  height: 80vh;
+  background:  linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('background.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 200px;
+  padding-inline-end: 50px;
+
+  .container {
+    transition: transform 0.5s ease;
+  }
+  
+  .container-main h4,
+  h2 {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    transform: translateY(30px);
+    /* Start lower */
+    transition: transform 0.5s ease, opacity 0.3s ease;
+    /* Animate upward */
+    opacity: 0.8;
+    /* Slightly faded at the start */
+  }
+  
+  .container-main h2 {
+    font-size: 2.8rem;
+    font-family: "EB Garamond", serif;
+  }
+  
+  .container-main p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: 0;
+    /* Initially hidden */
+    transform: translateY(30px);
+    /* Positioned below */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    /* Smooth animation */
+  }
+  
+  /* Hover animation */
+  .container-main:hover h4,
+  .container-main:hover h2 {
+    transform: translateY(0);
+    /* Move upward */
+    opacity: 1;
+    /* Fully visible */
+  }
+  
+  .container-main:hover p {
+    opacity: 1;
+    /* Show the paragraph */
+    transform: translateY(0);
+    /* Move upward */
+  }
+}
+
+/* img{
+  height: 100px!important;
+} */
+
+.newsSection {
+  top: 0;
+  padding: 0;
+  /* Remove padding if any */
+  margin-top: 80px;
+  /* Keep vertical alignment as required */
+  text-align: left;
+  /* Align text to the left */
+  padding-bottom: 50px;
+}
+
+.newsSection h2 {
+  margin: 0;
+  /* Ensure heading aligns perfectly with the section */
+  font-family: "EB Garamond", serif;
+  font-size: 3.2rem;
+  margin-left: 60px;
+  color: black;
+}
+
+.newsContainer {
+  max-width: 100svw;
+  /* Reduce width to avoid left/right clipping */
+  box-sizing: border-box;
+  /* Include padding and border in width calculations */
+  overflow: hidden;
+  /* Prevent overflow issues */
+  display: grid;
+  padding: 40px;
+  /* Adjusted padding for uniform spacing */
+  padding-right: 40px;
+  grid-template-columns: 2fr 3fr;
+  /* Left: Large card, Right: 4 smaller cards */
+  gap: 20px;
+  /* Center the container */
+}
+
+
+.newsCard {
+  background: #fff;
+  border: 1px solid #ddd;
+  /* border-radius: 8px; */
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.newsCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.newsCard img {
+  width: 600px;
+  height: 410px;
+  /* display: none; */
+}
+
+.newsContent {
+  padding: 15px;
+  text-align: center;
+}
+
+.newsContent .category {
+  font-size: 0.9rem;
+  color: #777;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.newsContent h3 {
+  font-size: 1.2rem;
+  color: #333;
+  font-family: "EB Garamond", serif;
+  margin: 0;
+}
+
+/* Large Card Specific */
+.newsCard.large {
+  grid-column: 1 / 2;
+  /* Occupies the left column */
+}
+
+/* Right-side Small Cards */
+.smallCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Two columns for small cards */
+  gap: 20px;
+}
+
+.newsCard.small {
+  grid-column: span 1;
+  /* Occupies individual cells */
+}
+
+
+.campus_and_community {
+  width: 100svw;
+  height: 600px;
+  padding: 40px;
+  padding-inline-start: 100px;
+  background: url('background2.jpg');
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.content-card {
+  background: #990000;
+  color: white;
+  width: 550px;
+  height: auto;
+  box-shadow: 0 0 0 10px #990000, 0 0 0 11px #fff, 0 0 0 21px #990000;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.content-card h2 {
+  color: #fff;
+  font-size: 0.9rem;
+  /* Match the size in the screenshot */
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  /* Ensure the text is uppercase */
+  margin-bottom: 15px;
+}
+
+.content-card h3 {
+  font-size: 1.8rem;
+  /* Match the title font size */
+  margin: 20px 0;
+  /* Consistent spacing around the title */
+  font-family: "EB Garamond", serif;
+  line-height: 1.6;
+  /* Enhance readability */
+  font-weight: bold;
+}
+
+.content-card p {
+  font-size: 1rem;
+  /* Match the paragraph font size */
+  line-height: 1.8;
+  /* Spacing for text clarity */
+  margin-bottom: 30px;
+  /* Ensure space before the button */
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.learn-more-btn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  /* Transparent background for a clean look */
+  color: white;
+  border: 2px solid white;
+  /* Add border matching the button text */
+  border-radius: 30px;
+  /* Rounded button */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.learn-more-btn:hover {
+  background-color: white;
+  color: #990000;
+  /* Invert colors on hover */
+}
+
+.upComingEvents {
+  /* position: relative; */
+  /* Changed to relative for proper stacking */
+  margin-top: 50px;
+  /* Ensure spacing above */
+  margin-left: 100px;
+  padding-bottom: 50px;
+  /* Ensure padding below */
+}
+
+.upComingEvents h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 2rem;
+  color: #011f5b;
+  margin-bottom: 40px;
+}
+
+.upComingEventsContainer {
+  display: flex;
+  /* Use flexbox for easy alignment */
+  gap: 20px;
+  /* Space between the two cards */
+}
+
+.eventCard {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 700px;
+  width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.eventCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.eventCard img {
+  width: 400px;
+  height: 300px;
+  display: block;
+}
+
+/* Left Card */
+.eventCard.left {
+  width: 400px;
+}
+
+/* Right Card */
+.eventCard.right {
+  width: 500px;
+  & img{
+    width: 500px;
+  }
+}
+
+.dateCard {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  & span{
+    background-color: #990000;
+    width: 100%;
+    display: block;
+    color: white;
+  }
+  & p{
+    padding: 10px 15px;
+    font-size: 1.3rem;
+  }
+}
+
+.eventContent {
+  padding: 15px;
+}
+
+.eventContent .category {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.eventContent h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.eventContent p {
+  font-size: 0.9rem;
+  color: #777;
+  line-height: 1.5;
+}
+
+.cardsInspiringSection {
+  width: 100svw;
+  margin-top: 50px;
+  /* Space below the Upcoming Events section */
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  /* position: relative; */
+  /* Ensures proper stacking */
+}
+
+.cardsInspiringContainer {
+  display: flex;
+  justify-content: center;
+  /* Center the cards horizontally */
+  gap: 20px;
+  /* Space between the cards */
+}
+
+.cardsInspiring {
+  background-color: #011f5b;
+  /* Main card background */
+  color: #fff;
+  padding: 20px;
+  /* Inner padding for content */
+  width: 500px;
+  /* Card width */
+  height: 400px;
+  /* Card height */
+  box-shadow: 0 0 0 10px #011f5b, 0 0 0 11px #fff, 0 0 0 21px #011f5b;
+  /* Layered border effect */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 70px;
+}
+
+.white {
+  background-color: #F2F2F2;
+  color: #011f5b;
+  box-shadow: 0 0 0 10px #f2f2f2, 0 0 0 11px #011f5b, 0 0 0 21px #f2f2f2;
+  /* Layered border effect */
+}
+
+
+.cardsInspiring h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+
+}
+
+.cardsInspiring p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  margin-top: 60px;
+  line-height: 1.6;
+}
+
+.cardsInspiring .learn-more-btn {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.blue-btn {
+  background-color: transparent;
+  color: #011f5b;
+  padding: 10px 20px;
+  border: 1px solid #011f5b;
+  border-radius: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.blue-btn:hover {
+  background-color: #011f5b;
+  color: #FFF;
+}
+
+.cardsInspiring .learn-more-btn:hover {
+  background-color: #fff;
+  color: #011f5b;
+}
+
+.cardsInspiring:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 0 10px #011f5b, 0 0 0 11px #fff, 0 0 0 21px #011f5b, 0 8px 12px rgba(0, 0, 0, 0.15);
+  /* Enhanced shadow on hover */
+}
+
+.white:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 0 10px #f2f2f2, 0 0 0 11px #011f5b, 0 0 0 21px #f2f2f2, 0 8px 12px rgba(0, 0, 0, 0.15);
+  /* Enhanced shadow on hover */
+}
+
+
+.Priorities {
+  width: 100svw;
+  background-color: #011f5b;
+}
+
+.Priorities h1 {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.Priorities p {
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+.priorities-carousel {
+  margin: 50px;
+  max-width: 100%;
+  text-align: center;
+  & .carousel-item{
+    position: relative;
+    height: 100%;
+    & h3{
+      position: absolute;
+      background-color: white;
+      bottom: 15px;
+      padding: 10px;
+      height: 60px;
+      &::after{
+        content: '>';
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-color: #990000;
+        bottom: 0px;
+        left: 100%;
+        cursor: pointer;
+        color: white;
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+.priority-image {
+  width: auto;
+  height: 70vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-right: 15px;
+  /* Adds gap between images */
+  margin-bottom: 15px;
+  /* Adds gap at the bottom, if required */
+}
+
+.priorities-carousel h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  color: #333;
+  font-family: "EB Garamond", serif;
+}
+
+.cardcontainer{
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.stayConnected h3{
+  color: #011f5b;
+  font-family: "EB Garamond", serif;
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.socialcard-container{
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

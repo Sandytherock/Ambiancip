@@ -1,0 +1,11 @@
+.container {
+    background-color: lightgray;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2 rem;
+    padding: 20px;
+}
+.main-content {
+    flex: 1;
+}

@@ -1,0 +1,33 @@
+.container {
+    max-width: 100%;
+    margin-top: 150px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .textContent,
+  .imageContent {
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      /* padding: 3rem 1rem; */
+    }
+  
+    .content {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .textContent,
+    .imageContent {
+      width: 50%;
+    }
+  }
+  
+  

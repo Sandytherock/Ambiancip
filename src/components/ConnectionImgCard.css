@@ -1,0 +1,38 @@
+.imagecard{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagecard:hover p{
+    opacity: 1;
+}
+
+.imagecard img{
+    position: absolute;
+}
+
+.imagecard p{
+    background: rgba(153,0,0,0.8);
+    color: #fff;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+    &.blue{
+        background: rgba(0, 0, 153, 0.8);
+    }
+    &.active{
+        background-color: rgba(0, 0, 153, 1);
+        opacity: 1;
+    }
+    /* display: none; */
+}
+.imagecard img{
+    height: 400px;
+    width: 400px;
+}

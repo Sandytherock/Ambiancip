@@ -1,0 +1,24 @@
+.header-Annual {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header-Annual h1 {
+    color: #011f5b;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .header-Annual {
+      padding: 15px;
+    }
+  }
+  
+  

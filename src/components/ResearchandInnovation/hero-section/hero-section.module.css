@@ -1,0 +1,39 @@
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 3rem;
+  }
+  
+  .title {
+    color: #000;
+    font-size: 3rem;
+    font-family: serif;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+  }
+  
+  .separator {
+    width: 3rem;
+    height: 0.25rem;
+    background-color: #b91c1c;
+  }
+
+  .content{
+    display: flex;
+    gap: 15px;
+  }
+  
+  .description {
+    color: #000;
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+  
+  @media (min-width: 768px) {
+    .title {
+      font-size: 3.75rem;
+    }
+  }
+  
+  

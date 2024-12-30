@@ -1,0 +1,16 @@
+.custom-link {
+    color: #001F5B;
+    text-decoration: none;
+  }
+  
+  .custom-link:hover {
+    text-decoration: underline;
+  }
+  
+  .custom-link {
+    color: #001F5B;
+    text-decoration: none;
+  }
+  .custom-link:hover {
+    text-decoration: underline;
+  }
