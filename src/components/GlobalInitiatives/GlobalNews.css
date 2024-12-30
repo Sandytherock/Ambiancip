@@ -1,0 +1,133 @@
+/* Global News Section */
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+  }
+  
+  .section-header--centered {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-header__title {
+    font-size: 36px;
+    font-family: 'EB Garamond', serif;
+    color: #011F5B; /* Deep blue */
+  }
+  
+  .grid__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .grid-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .grid-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .grid-card__image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .grid-card__content {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .grid-card__title {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #011F5B;
+  }
+  
+  .grid-card__link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+  
+  .grid-card__link:hover {
+    color: #0056b3; /* Slightly lighter blue */
+  }
+  
+  .grid-card__date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .section-footer {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.section-footer--centered {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+.btn-g {
+    display: inline-block;
+    width: auto; /* Allow button width to adapt to its content */
+    padding: 15px 30px; /* Adjust padding for a balanced look */
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #011F5B;
+    border-radius: 45px;
+    color: #011F5B;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    /* align-self: center; */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0 auto; /* Center the button horizontally */
+}
+  
+  .btn-g:hover {
+    background-color: #011F5B;
+    color: #ffffff;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .grid__content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .grid__content {
+      grid-template-columns: 1fr;
+    }
+  
+    .section-header__title {
+      font-size: 28px;
+    }
+  }
+  

@@ -1,0 +1,99 @@
+.OffCampus_story {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2; /* Deep blue background */
+    padding: 50px 100px;
+    margin-top: 50px;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .OffCampus_storyContentColumn {
+    flex: 1;
+    margin: 20px;
+  }
+  
+  .OffCampus_storyContent {
+    max-width: 600px;
+  }
+  
+  .OffCampus_storySubheading {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #011F5B;
+    margin-bottom: 10px;
+  }
+  
+  .OffCampus_storyTitle {
+    font-size: 34px;
+    font-family: 'EB Garmond', serif;
+    line-height: 1.4;
+    font-family: 'EB Garamond', serif;
+    margin: 0px 0px 19px;
+    color: #011F5B;
+  }
+  
+  .OffCampus_storyText p {
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .OffCampus_btn.btn {
+    display: inline-block;
+    width: 210px;
+    height: 67.2px;
+    padding: 25px;
+    margin: 20px 0px;
+    border: 1px solid #011F5B;
+    border-radius: 45px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #011F5B;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .OffCampus_btn.btn:hover {
+    background-color: #ffffff;
+    color: #011F5B;
+  }
+  
+  .OffCampus_card__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .OffCampus_story {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .OffCampus_storyContentColumn {
+      margin: 10px 0;
+    }
+  
+    .OffCampus_storyContent {
+      max-width: 100%;
+    }
+  
+    .OffCampus_storyTitle {
+      font-size: 28px;
+    }
+  
+    .OffCampus_storyText p {
+      font-size: 16px;
+    }
+  }
+  

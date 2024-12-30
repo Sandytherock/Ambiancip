@@ -1,0 +1,39 @@
+.OffCampus_divContent {
+    max-width: 100%;
+    margin: 50px 80px 30px 80px;
+    padding: 80px 20px 20px 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  
+ .OffCampus_divContent h3 {
+    /* margin-top: 2rem;
+    font-size: 1.1rem;
+    font-weight: bold; */
+
+    font-size: 28px;
+    font-family: 'EB Garmond', serif;
+    margin: 28px 0px 10px;
+    color: #011F5B;
+    text-decoration: underline;
+
+    & a {
+      color: #011F5B;
+      text-decoration: none;
+    }
+  }
+  
+  
+ .OffCampus_divContent p {
+    /* margin-bottom: 1.5rem;
+    line-height: 1.6; */
+
+    color: #000000;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 17px 0px 36px;
+    text-align: justify;
+  }

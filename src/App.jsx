@@ -1,19 +1,22 @@
-import './App.css';
+import './App.css'
 // import Header from './components/Header/Header';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import MainPage from './components/MainPage/MainPage';
-import Athletics from './components/Athletics/Athletics';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import MainPage from './components/MainPage/MainPage'
+import Athletics from './components/Athletics/Athletics'
 import ResearchAndInnovationMain from './components/ResearchandInnovation/ResearchandInnovationMain'
 // import ResearchandNewsMain from './components/ResearchandNews/ResearchandNewsMain.jsx';
 // import ResearchandEnterpriseMain from './components/ResearchandEnterprise/ResearchandEnterpriseMain.jsx';
-import About from './components/About/About';
-import Faq from './components/Faq/Faq';
-import Policies from './components/Policies/Policies';
-import Facts from './components/Facts/Facts';
-import Universityvalue from './components/Universityvalue/Universityvalue';
-import Admissions from './components/Admissionsandaid/Admissionsandaid';
-import Arts from './components/Art&Culture/Arts';
-
+import About from './components/About/About'
+import Faq from './components/Faq/Faq'
+import Policies from './components/Policies/Policies'
+import Facts from './components/Facts/Facts'
+import Universityvalue from './components/Universityvalue/Universityvalue'
+import Admissions from './components/Admissionsandaid/Admissionsandaid'
+import Arts from './components/Art&Culture/Arts'
+import GlobalInitiatives from './pages/GlobalInitiatives'
+import OffCampusLearning from './pages/OffCampusLearning'
+import OnlineLearning from './pages/OnlineLearning'
+import Interdisciplinary from './pages/Interdisciplinary'
 function App() {
   return (
     <Router>
@@ -53,6 +56,18 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/arts' element={<Arts/>}/>
+        </Routes>
+        <Routes>
+          <Route path='/global-initiatives' element={<GlobalInitiatives/>}/>
+        </Routes>
+        <Routes>
+          <Route path='/off-campus-learning' element={<OffCampusLearning/>}/>
+        </Routes>
+        <Routes>
+          <Route path='/online-learning' element={<OnlineLearning/>}/>
+        </Routes>
+        <Routes>
+          <Route path='/interdisciplinary' element={<Interdisciplinary/>}/>
         </Routes>
         
       </main>

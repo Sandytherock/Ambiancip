@@ -13,17 +13,17 @@ const Header = () => {
           <span className='line'></span>
           <nav>
             <div className="dropdown">
-              <a href="#academics" className="dropdown-link">
+              <a href="/academics" className="dropdown-link">
                 Academics &nbsp;<i className="fas fa-chevron-down"></i> &nbsp;/
               </a>
               <div className="dropdown-menu">
                 <a href="#undergraduate">Undergraduate</a>
                 <a href="#graduate">Graduate</a>
                 <a href="#schools">Schools</a>
-                <a href="#global-initiatives">Global Initiatives</a>
-                <a href="#interdisciplinary">Interdisciplinary</a>
-                <a href="#online-learning">Online Learning</a>
-                <a href="#off-campus-learning">Off-campus Learning</a>
+                <a href="/global-initiatives">Global Initiatives</a>
+                <a href="/interdisciplinary">Interdisciplinary</a>
+                <a href="/online-learning">Online Learning</a>
+                <a href="/off-campus-learning">Off-campus Learning</a>
                 <a href="#libraries">Libraries</a>
               </div>
             </div>

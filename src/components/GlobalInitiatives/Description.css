@@ -1,0 +1,63 @@
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center content vertically */
+    margin: 0 60px; /* Add horizontal margins */
+    height: 100vh; /* Full viewport height */
+    font-family: 'Arial', sans-serif; /* Ensure the font matches */
+  }
+  
+  .descContent {
+    flex: 1;
+    max-width: 50%; /* Limit content to half the width */
+    padding: 40px; 
+  }
+  
+  .breadcrumb {
+    font-size: 1rem; /* Slightly larger breadcrumb text */
+    margin-bottom: 20px;
+    color: #666; /* Adjust breadcrumb color */
+  }
+  
+  .breadcrumb-item a {
+    color: #666; /* Breadcrumb link color */
+    text-decoration: none;
+  }
+  
+  .breadcrumb-item.active {
+    color: #000; /* Current breadcrumb color */
+  }
+  
+  .descHeading {
+    font-size: 3rem; /* Larger heading size */
+    font-family: 'EB Garmond', serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #222; /* Darker color for heading */
+    border-left: 5px solid #a00; /* Add a red border line */
+    padding-left: 15px;
+  }
+  
+  .descContentText {
+    font-size: 23px; /* Larger content text */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5; /* Increased line spacing */
+    color: #1d1d1d;
+    text-align: justify; /* Align text for better readability */
+  }
+  
+  .descImage {
+    flex: 1;
+    max-width: 50%; /* Limit image to half the width */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+  }
+  
+  .descImage img {
+    width: 100%; /* Ensure the image spans the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Add rounded corners for a polished look */   
+    margin: 20px;
+  }
+  
