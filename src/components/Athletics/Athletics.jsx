@@ -21,8 +21,6 @@ const Athletics = () => {
     <>
       <Header />
       <div className="athletics">
-
-
         <div className="first-container">
           <Breadcrumb items={breadcrumbItems} />
           <h1> <span style={{ borderBottom: '5px solid brown' }}>A</span>thletics & Recreation</h1>
@@ -70,7 +68,7 @@ const Athletics = () => {
 
         <div className="second-container">
           <div className="container-1">
-            <div className="penn">
+            <div className="penn-sports">
               <Link to="#"> <h1>Sport Clubs</h1></Link>
 
               <p>
@@ -138,7 +136,7 @@ const Athletics = () => {
             </div>
           </div>
 
-          <div className="button">
+          <div className="button-sport">
             <button>More Sports News</button>
           </div>
         </div>
@@ -216,30 +214,17 @@ const Athletics = () => {
             <h1>Explore Life at Penn</h1>
           </div>
 
-          <div className="buttons">
-            <div className="btn-1">
-              <button className="b-1">ARTS & CULTURE</button>
-              <button className="b-1">COMMUNITY INVOLVEMENT</button>
-              <button className="b-1">DIVERSITY</button>
-            </div>
-
-            <div className="btn-1">
-              <button className="b-1">GROUPS AND ORGANIZATION</button>
-
-              <button className="b-1">HEALTH AND WELLNESS</button>
-
-              <button className="b-1">HOUSING AND DINING</button>
-            </div>
-            <div className="btn-1">
-              <button className="b-1">PENN & PHILADELPHIA</button>
-
-              <button className="b-1">SAFETY & SECURITY</button>
-
-              <button className="b-1">SPIRITUALITY & RELIGION</button>
-            </div>
-
+          <div className="buttons-a">
+            <button className="b-1">ARTS & CULTURE</button>
+            <button className="b-1">COMMUNITY INVOLVEMENT</button>
+            <button className="b-1">DIVERSITY</button>
+            <button className="b-1">GROUPS AND ORGANIZATION</button>
+            <button className="b-1">HEALTH AND WELLNESS</button>
+            <button className="b-1">HOUSING AND DINING</button>
+            <button className="b-1">PENN & PHILADELPHIA</button>
+            <button className="b-1">SAFETY & SECURITY</button>
+            <button className="b-1">SPIRITUALITY & RELIGION</button>
           </div>
-
         </div>
 
       </div>
