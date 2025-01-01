@@ -1,0 +1,11 @@
+.artsimgcard{
+    height: auto;
+    width: 250px;
+    padding: 10px;
+    color: black;
+
+    & img{
+        width: 250px;
+        height: 150px;
+    }
+}

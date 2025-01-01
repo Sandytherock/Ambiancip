@@ -1,5 +1,6 @@
 import React from 'react'
 import './ConnectionImgCard.css';
+
 function ConnectionImgCard(props) {
     return (
         <div className="imagecard">

@@ -1,4 +1,277 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+.athletics {
+  margin-top: 150px;
+  max-width: 100%;
+  }
+  
+  .first-container {
+    color: #000;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 40px;
+  }
+  
+  .first-container p {
+    font-weight: 200;
+  }
+  
+  .first-container h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+  }
+  
+  
+  
+  .first-container h3 {
+    font-weight: normal;
+    font-size: 1.5rem;
+  }
+  
+  .content {
+    max-width: 1000px;
+    & h3{
+      padding-top: 15px;
+    }
+  }
+  
+  .first-container img {
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    padding-top: 25px;
+  }
+  
+  .second-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 120px;
+    width: 100%;
+    max-width: 1400px;
+  }
+  
+  .container-1{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+  .penn-sports h1{
+    color: #551A8B;
+    font-size: 1.7rem;
+    font-weight: 100;
+  }
+  
+  .penn-sports p{
+    color: #000;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  
+  }
+  .campus{
+    margin-top: 40px;
+  }
+  
+  .campus h1{
+    color: #551A8B;
+    font-size: 1.7rem;
+    font-weight: 100;
+  }
+  .campus p{
+    color: #000;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  
+  .intramural{
+    margin-top: 40px;
+  }
+  
+  .intramural h1{
+    color: #551A8B;
+    font-size: 1.7rem;
+    font-weight: 100;
+  }
+  .intramural p{
+    color: #000;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  
+  }
+  
+  .image-2{
+    margin-top: 40px;
+    margin-right: 140px;
+  }
+  
+  .image-2 img{
+    width: 100%;
+    width: 450px;
+    height: 450px;
+  }
+  
+  .third-container{
+    background-color: #f2f2f2;
+  }
+  .sports{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .sports h1{
+    margin-top: 100px;
+    font-weight: 200;
+    font-size: 3rem;
+  }
+  
+  .container-3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Center-aligns the cards horizontally */
+  }
+  
+  .container-3 .card-1,
+  .container-3 .card-2,
+  .container-3 .card-3,
+  .container-3 .card-4 {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-aligns content within each card */
+    text-align: center; /* Centers text inside the cards */
+    overflow: hidden; /* Ensures content doesn't overflow */
+  }
+  
+  .container-3 img {
+    width: 100%; /* Ensures the image fits the card width */
+    height: 200px; /* Adjust height for the image */
+    object-fit: cover; /* Ensures the image doesn't stretch */
+  }
+  
+  .container-3 p {
+    margin: 10px 0; /* Adds spacing around the text */
+    font-size: 16px; /* Sets the font size */
+    color: #333; /* Optional: Sets the text color */
+  }
+  
+  
+  .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+  }
+  .button button{
+    margin-bottom: 100px;
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+  }
+  .button button:hover{
+    background-color: rgb(6, 6, 85);
+    color: white;
+  }
+  
+  
+  .fourth-container{
+    background-color: white;
+    width: 100%;
+  }
+  
+  .first{
+    margin-left: 100px;
+    margin-top: 120px;
+    color: rgb(9, 9, 126);
+    
+  }
+  .first span{
+    border-bottom: 5px solid #a4a5a8;
+  }
+  .first h1{
+    font-weight: 100;
+    font-size: 2.8rem;
+    
+  }
+  
+  .second{
+    margin-left: 100px;
+    margin-right: 120px;
+   
+  }
+  .last{
+    margin-bottom: 100px;
+  }
+  .second h2{
+    font-weight: 100;
+    font-size: 1.8rem;
+    color: #031f54;
+  }
+  
+  .second p{
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  
+  .fifth-container{
+    width: 100%;
+    background-color: rgba(32, 24, 24, 0.6); /* Red with 50% transparency */
+    height: 600px;
+    position: absolute;
+    
+  }
+  
+  .head{
+    position: relative;
+    margin-left:100px ;
+    margin-top: 100px;
+  }
+  .head h1{
+    font-weight: 200;
+    font-size: 3rem;
+    color: white;
+  }
+  
+  
+  
+  .buttons {
+    
+    margin-left: 100px;
+    width: 100%;
+    height: 180px;
+    max-width: 900px;
+    border: 2px solid white;
+    
+   
+  }
+  .btn-1{
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .b-1{
+    width: 100%;
+    max-width: 300px;
+    height: 60px;
+  }
+  .btn-1 button{
+    background-color: rgba(1, 31, 91, 0.8);
+    color: white;
+    font-weight: bold;
+    border: 0.5px solid white;
+  }
+  
+  .btn-1 button:hover{
+    background-color: white;
+    color: #1d0957;
+    transition: ease-in-out 0.3s;
+  }
+  
+  
+  
+  
+  

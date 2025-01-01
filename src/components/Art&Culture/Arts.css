@@ -14,3 +14,34 @@
         font-family: "Roboto", Helvetica, Arial, sans-serif;
     }
 }
+
+.artsimgcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+.imageslide-container{
+    height: 800px;
+    width: 800px;
+    padding-left: 50px;
+}
+
+/* Customizing navigation arrows */
+.slick-prev:before, .slick-next:before {
+    color: black; /* Change arrow color */
+    font-size: 20px;
+  }
+  
+  /* Customizing navigation dots */
+  .slick-dots li button:before {
+    color: lightgray; /* Inactive dot color */
+    font-size: 12px;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: darkred; /* Active dot color */
+  }
+  

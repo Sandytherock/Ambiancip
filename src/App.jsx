@@ -2,7 +2,6 @@ import './App.css'
 // import Header from './components/Header/Header';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import MainPage from './components/MainPage/MainPage'
-import Athletics from './components/Athletics/Athletics'
 import ResearchAndInnovationMain from './components/ResearchandInnovation/ResearchandInnovationMain'
 // import ResearchandNewsMain from './components/ResearchandNews/ResearchandNewsMain.jsx';
 // import ResearchandEnterpriseMain from './components/ResearchandEnterprise/ResearchandEnterpriseMain.jsx';
@@ -17,6 +16,7 @@ import GlobalInitiatives from './pages/GlobalInitiatives'
 import OffCampusLearning from './pages/OffCampusLearning'
 import OnlineLearning from './pages/OnlineLearning'
 import Interdisciplinary from './pages/Interdisciplinary'
+import Athletics from './components/Athletics/Athletics'
 function App() {
   return (
     <Router>
@@ -68,6 +68,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/interdisciplinary' element={<Interdisciplinary/>}/>
+        </Routes>
+        <Routes>
+          <Route path='/athletics' element={<Athletics/>}/>
         </Routes>
         
       </main>

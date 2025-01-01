@@ -28,7 +28,7 @@ const Header = () => {
               </div>
             </div>
             <a href="/admissions">Admissions & Aid &nbsp;/</a>
-            <a href="/athletics-and-recreation">Athletics &nbsp;/</a>
+            <a href="/athletics">Athletics &nbsp;/</a>
             <div className="dropdown">
               <a href="/research-and-innovation" className="dropdown-link">
                 Research & Innovation &nbsp;<i className="fas fa-chevron-down"></i> &nbsp;/
