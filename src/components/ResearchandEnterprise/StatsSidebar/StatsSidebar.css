@@ -1,0 +1,32 @@
+.stats-sidebar {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    margin-left: 2rem;
+  }
+  
+  .stats-title {
+    color: #002d72;
+    font-size: 1.8rem;
+    font-family: serif;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .stat-item {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .stat-number {
+    color: #002d72;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat-description {
+    color: #666;
+    font-size: 1.1rem;
+  }
+  
+  

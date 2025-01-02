@@ -1,0 +1,65 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.textContent,
+.imageContent {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 3rem 1rem;
+  }
+
+  .content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .textContent,
+  .imageContent {
+    width: 50%;
+  }
+}
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.content {
+  display: flex;
+  gap: 2rem;
+}
+
+.main {
+  flex: 1;
+}
+
+.sidebar {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%;
+  }
+}
+.facilityMain{
+  background-color:lightgray;
+}
+

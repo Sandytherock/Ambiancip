@@ -1,0 +1,15 @@
+.article-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .article-layout {
+      grid-template-columns: 1fr;
+      padding: 20px;
+    }
+  }
+  
+  

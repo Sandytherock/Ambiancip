@@ -1,0 +1,8 @@
+.newImgCard{
+    width: 100%;
+    display: flex;
+    color: black;
+}
+.imgcontent{
+    padding-left: 25px;
+}

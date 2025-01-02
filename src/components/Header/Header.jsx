@@ -34,8 +34,8 @@ const Header = () => {
                 Research & Innovation &nbsp;<i className="fas fa-chevron-down"></i> &nbsp;/
               </a>
               <div className="dropdown-menu">
-                <a href="/research-and-innovation/research-enterprise">Research Enterprise</a>
-                <a href="/research-and-innovation/research-news">Research News</a>
+                <a href="/research-enterprise">Research Enterprise</a>
+                <a href="/research-news">Research News</a>
               </div>
             </div>
             <div className="dropdown">
@@ -45,8 +45,8 @@ const Header = () => {
               <div className="dropdown-menu">
                 <a href="/arts">Arts & Culture</a>
                 <a href="#diversity">Diversity</a>
-                <a href="#groups">Groups & Organizations</a>
-                <a href="#housing-dining">Housing & Dining</a>
+                <a href="/groups-and-organizations">Groups & Organizations</a>
+                <a href="/housing-and-dining">Housing & Dining</a>
                 <a href="#health-wellness">Health & Wellness</a>
               </div>
             </div>

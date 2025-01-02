@@ -1,0 +1,44 @@
+.article-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .article-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .article-content {
+    padding: 20px 0;
+  }
+  
+  .article-category {
+    color: #8b0000;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .article-title {
+    color: #002855;
+    font-size: 1.25rem;
+    margin: 0;
+    font-family: serif;
+    line-height: 1.4;
+  }
+  
+  .feature .article-title {
+    font-size: 1.75rem;
+  }
+  
+  .feature {
+    margin-bottom: 0;
+  }
+  
+  

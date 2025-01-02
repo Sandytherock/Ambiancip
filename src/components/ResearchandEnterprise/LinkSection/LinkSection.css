@@ -1,0 +1,24 @@
+.link-section {
+    margin-bottom: 2rem;
+  }
+  
+  .link-section-title {
+    color: #002d72;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-family: serif;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .link-section-title:hover {
+    text-decoration: none;
+  }
+  
+  .link-section-description {
+    color: #333;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  

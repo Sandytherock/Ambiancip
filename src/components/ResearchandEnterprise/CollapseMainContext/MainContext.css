@@ -1,0 +1,21 @@
+.main-content {
+    max-width: 800px;
+    padding-right: 2rem;
+  }
+  
+  .intro-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .main-content a {
+    color: #011F5B;
+    text-decoration: none;
+  }
+  
+  .main-content a:hover {
+    text-decoration: underline;
+  }
+  
+  

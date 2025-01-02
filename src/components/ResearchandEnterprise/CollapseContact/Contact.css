@@ -1,0 +1,51 @@
+.contact_E {
+    background-color: #011F5B;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .building-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .divider {
+    width: 48px;
+    height: 4px;
+    background-color: white;
+    margin: 1rem auto;
+  }
+  
+  .contact-info {
+    margin-top: 2rem;
+  }
+  
+  .contact-info h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info address {
+    font-style: normal;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .contact-info a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  

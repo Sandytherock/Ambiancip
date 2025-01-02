@@ -1,0 +1,15 @@
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .article-grid {
+      grid-template-columns: 1fr;
+      padding: 20px;
+    }
+  }
+  
+  

@@ -17,6 +17,10 @@ import OffCampusLearning from './pages/OffCampusLearning'
 import OnlineLearning from './pages/OnlineLearning'
 import Interdisciplinary from './pages/Interdisciplinary'
 import Athletics from './components/Athletics/Athletics'
+import GroupsOrganizations from './components/Groups & Organizations/GroupsOrganizations'
+import Houseing from './components/Houseinganddining/Houseing'
+import ResearchandNewsMain from './components/ResearchandNews/ResearchandNewsMain'
+import ResearchandEnterpriseMain from './components/ResearchandEnterprise/ResearchandEnterpriseMain'
 function App() {
   return (
     <Router>
@@ -30,12 +34,12 @@ function App() {
         <Routes>
           <Route path="/research-and-innovation" element={<ResearchAndInnovationMain />} />
         </Routes>
-        {/* <Routes>
-          <Route path="/research-and-innovation/research-news" element={<ResearchandNewsMain />} />
+        <Routes>
+          <Route path="/research-news" element={<ResearchandNewsMain />} />
         </Routes>
         <Routes>
-          <Route path="/research-and-innovation/research-enterprise" element={<ResearchandEnterpriseMain/>} />
-        </Routes> */}
+          <Route path="/research-enterprise" element={<ResearchandEnterpriseMain />} />
+        </Routes>
         <Routes>
           <Route path='/about' element={<About/>}/>
         </Routes>
@@ -71,6 +75,12 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/athletics' element={<Athletics/>}/>
+        </Routes>
+        <Routes>
+          <Route path='/groups-and-organizations' element={<GroupsOrganizations/>}/>
+        </Routes>
+        <Routes>
+          <Route path='/housing-and-dining' element={<Houseing/>}/>
         </Routes>
         
       </main>

@@ -1,0 +1,39 @@
+.collapsible-section {
+    border: none;
+    margin-bottom: 1rem;
+  }
+  
+  .section-header {
+    width: 100%;
+    background-color: #011F5B;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .section-header h2 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .toggle-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .section-content {
+    padding: 1rem;
+    background-color: #011F5B;
+    color: white;
+  }
+  
+  .section-content a {
+    color: white !important;
+  }
+  
+  
