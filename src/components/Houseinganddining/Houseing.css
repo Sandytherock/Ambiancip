@@ -15,14 +15,14 @@
     font: 12px Roboto, Helvetica, Arial, sans-serif;
     cursor: pointer;
     outline: none;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
-.containgrouphouse{
+.contain-grouphouse{
     max-width: 1315px;
     /* padding: 0 20px; */
     width: 100%;
-    margin: auto;
+    padding-left: 50px;
     color:black;
 }
 .containgrouphouse h1 {
@@ -43,9 +43,14 @@
 .pfgrouphouse{
     font-size: 1.4rem;
     color: black;
+    padding-top: 20px;
     margin-bottom: 40px;
+    padding-inline: 50px;
 }
 
+.universitygrouphouse{
+    padding-left: 50px;
+}
 
 .universitygrouphouse h2{
     font-size: 2.5rem;
@@ -79,6 +84,7 @@
     color: #011F5B;
     font-family: "EB Garamond", serif;
     cursor: pointer;
+    padding-left: 50px;
     /* margin: ; */
     /* padding: ; */
 }
@@ -86,8 +92,10 @@
     text-decoration: none;
 }
 .pringrouphouse{
+    color: #000;
     font-size:1.1rem;
     margin-bottom: 35px;
+    padding-left: 50px;
 }
 
 
@@ -223,7 +231,7 @@
     margin-bottom: 40px;
     margin-top: 70px;
     padding-top: 80px;
-    /* padding-left:0px; */
+    padding-left: 50px;
 
 }
 
@@ -236,6 +244,7 @@
     opacity: .4;
     width: 40px;
     height: 4px;
+    padding-left: 50px;
 }
 
 .principlegroupgrouphouse{
@@ -247,13 +256,16 @@
     font-family: "EB Garamond", serif;
     cursor: pointer;
     /* margin: ; */
-    /* padding: ; */
+    padding-left: 50px;
+    padding-top: 10px;
 }
 .principlegroupgrouphouse:hover {
     text-decoration: none;
 }
 .pringroupgrouphouse{
+    color: #000;
     font-size:1.1rem;
+    padding-left: 50px;
     /* margin-bottom: px; */
 }
 .universitygroupgrouphouseprin{

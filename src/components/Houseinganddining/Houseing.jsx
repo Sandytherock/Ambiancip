@@ -20,7 +20,7 @@ function Houseing() {
                     <h1><span>Housing & Dining</span></h1>
                 </div>
                 <p className='pfgrouphouse'>With a multitude of housing and dining options both on and off campus, all members of the University community can find the accommodations that make Penn feel like home.</p>
-                <img src="https://www.upenn.edu/sites/default/files/styles/default/public/2020-11/p-100297-master-v1-075a-1600x800.jpg?itok=apAkEATX" alt="" />
+                <img src="https://www.upenn.edu/sites/default/files/styles/default/public/2020-11/p-100297-master-v1-075a-1600x800.jpg?itok=apAkEATX" alt="" style={{paddingInline:'50px'}}/>
 
 
                 <div className='universitygrouphouse'>
