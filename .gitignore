@@ -12,8 +12,8 @@ dist
 dist-ssr
 *.local
 
-# Don't exclude the build directory
-!build/
+/dist
+
 
 
 # Editor directories and files
