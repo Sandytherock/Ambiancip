@@ -47,7 +47,7 @@ const Header = () => {
                 <a href="#diversity">Diversity</a>
                 <a href="/groups-and-organizations">Groups & Organizations</a>
                 <a href="/housing-and-dining">Housing & Dining</a>
-                <a href="#health-wellness">Health & Wellness</a>
+                <a href="/health-wellness">Health & Wellness</a>
               </div>
             </div>
             <div className="dropdown">

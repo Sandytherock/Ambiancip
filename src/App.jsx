@@ -1,10 +1,7 @@
 import './App.css'
-// import Header from './components/Header/Header';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import MainPage from './components/MainPage/MainPage'
 import ResearchAndInnovationMain from './components/ResearchandInnovation/ResearchandInnovationMain'
-// import ResearchandNewsMain from './components/ResearchandNews/ResearchandNewsMain.jsx';
-// import ResearchandEnterpriseMain from './components/ResearchandEnterprise/ResearchandEnterpriseMain.jsx';
 import About from './components/About/About'
 import Faq from './components/Faq/Faq'
 import Policies from './components/Policies/Policies'
@@ -21,6 +18,7 @@ import GroupsOrganizations from './components/Groups & Organizations/GroupsOrgan
 import Houseing from './components/Houseinganddining/Houseing'
 import ResearchandNewsMain from './components/ResearchandNews/ResearchandNewsMain'
 import ResearchandEnterpriseMain from './components/ResearchandEnterprise/ResearchandEnterpriseMain'
+import HealthandWellness from './components/HealthandWellness/HealthandWellness'
 function App() {
   return (
     <Router>
@@ -81,6 +79,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/housing-and-dining' element={<Houseing/>}/>
+        </Routes>
+        <Routes>
+          <Route path='/health-wellness' element={<HealthandWellness/>}/>
         </Routes>
         
       </main>

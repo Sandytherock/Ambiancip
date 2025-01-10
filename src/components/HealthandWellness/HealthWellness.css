@@ -1,0 +1,582 @@
+.orghousehelth{
+    
+    padding: 0 10px;
+    margin: 150px;
+}
+
+.breadcrumbgrouphousehelth {
+    gap: 10px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    color: #767676;
+    font: 12px Roboto, Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    padding-left: 20px;
+}
+
+.contain-grouphousehelth{
+    max-width: 1315px;
+    /* padding: 0 20px; */
+    width: 100%;
+    margin: auto;
+    color:black;
+}
+.containgrouphousehelth h1 {
+    position: relative;  /* Add this line */
+    color: black;
+}
+
+.containgrouphousehelth h1 span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -11px;
+    background: #990000;
+    width: 40px;
+    height: 4px;
+}
+
+.pfgrouphousehelth{
+    font-size: 1.4rem;
+    color: black;
+    margin-bottom: 40px;
+}
+
+
+.universitygrouphousehelth h2{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-family: "EB Garamond", serif;
+    color: #011F5B;
+    letter-spacing: 0;
+    position: relative;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 50px;
+
+}
+
+.universitygrouphousehelth h2::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    background: #011F5B;
+    opacity: .4;
+    width: 40px;
+    height: 4px;
+}
+
+.principlegrouphousehelth{
+    color: #011F5B;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    color: #011F5B;
+    font-family: "EB Garamond", serif;
+    cursor: pointer;
+    /* margin: ; */
+    /* padding: ; */
+}
+.principlegrouphousehelth:hover {
+    text-decoration: none;
+}
+.pringrouphousehelth{
+  color: black;
+    font-size:1.1rem;
+    margin-bottom: 35px;
+}
+
+
+.sustainabilitygrouphousehelth{
+    margin-left: 30px;
+    background: white;
+    /* height: 20px; */
+}
+.historygrouphousehelth{
+    background: white;
+    margin-right: 30px;
+}
+
+.about-sectiononegrouphousehelth {
+    background:#011F5B;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+}
+
+.about-sectiononegrouphousehelth > div {
+    width: 47%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative; /* Keep content inside */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    height: auto; /* Adjust the height to fit content */
+}
+
+.about-sectiononegrouphousehelth > div:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.about-sectiononegrouphousehelth > div:hover h2 {
+    text-decoration: underline; /* Img ya div hover karne par h2 underline */
+    color: #011F5B;
+}
+
+.about-sectiononegrouphousehelth h2 {
+    color: #011F5B;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 30px;
+    position: relative; /* Ensure the heading stays inside the div */
+    z-index: 1; /* Keep the heading above the image */
+}
+
+.about-sectiononegrouphousehelth p {
+    font-size: 14px;
+    color: #434343;
+    margin-bottom: 2em;
+    font-size: 17px;
+    line-height: 1.647058824;
+    text-align: center;
+    position: relative;
+    /* position: absolute; */
+    z-index: 1; /* Ensure the paragraph stays above the image */
+}
+
+.about-sectiononegrouphousehelth img {
+    width: 100%;
+    height: 400px; /* Fixed height for images */
+    object-fit: cover; /* Maintain the aspect ratio */
+    border-radius: 5px;
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+    z-index: 0; /* Keep image below text */
+}
+
+.about-sectiononegrouphousehelth img:hover {
+    transform: scale(1.05); /* Image zoom */
+}
+
+
+
+.buttongrouphousehelth {
+    display: block;
+    margin: 20px auto; /* Center horizontally and add top-bottom spacing */
+    padding: 24px 55px;
+    background-color: white; /* Inside button color white */
+    color: #011F5B; /* Text color */
+    border: 1px solid rgba(118, 118, 118, 0.2); /* Black border */
+    border-radius: 40px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+  
+  /* Hover effect */
+  .buttongrouphousehelth:hover {
+    background-color: #011F5B; /* Blue background on hover */
+    color: white; /* Text color changes to white */
+  }
+  .center-containergrouphousehelth {
+    display: flex; /* Flexbox enable */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: auto; /* Parent ki height adjust karein */
+    margin-top: 20px; /* Optional spacing */
+    margin-bottom: 20px; /* Optional spacing */
+}
+
+
+
+
+.housinghousehelth{
+    background: #F2F2F2;
+    /* margin-top: 60px; */
+    padding-left: 20px;
+    /* margin: 10p; */
+    padding-bottom: 10px;
+}
+
+.universitygroupgrouphousehelth h2{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-family: "EB Garamond", serif;
+    color: #011F5B;
+    letter-spacing: 0;
+    position: relative;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    padding-top: 80px;
+    /* padding-left:0px; */
+
+}
+
+.universitygroupgrouphousehelth h2::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    background: #011F5B;
+    opacity: .4;
+    width: 40px;
+    height: 4px;
+}
+
+.principlegroupgrouphousehelth{
+    color: #011F5B;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    color: #011F5B;
+    font-family: "EB Garamond", serif;
+    cursor: pointer;
+    /* margin: ; */
+    /* padding: ; */
+}
+.principlegroupgrouphousehelth:hover {
+    text-decoration: none;
+}
+.pringroupgrouphousehelth{
+    font-size:1.1rem;
+    /* margin-bottom: px; */
+}
+.universitygroupgrouphouseprinhelth{
+    margin-bottom: 70px;
+}
+.about-sectiononegrouponehousehelth {
+    background:#011F5B;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    /* margin-bottom: 50px; */
+    padding-top: 80px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+}
+
+.about-sectiononegrouponehousehelth img{
+    width: 65%; /* Shrinks the image */
+    margin: 0 auto; /* Horizontally centers the image */
+    display: block; /* Required for centering */
+    /* border-radius: 10px; */
+
+}
+
+
+
+
+
+
+
+
+.virtual-tour-sectionsecondhelth {
+    background-color:#011F5B;
+    color:white;
+    display: flex; /* Enable Flexbox */
+    justify-content: space-between; /* Space between left and right content */
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    padding-bottom: 70px;
+  }
+  
+  .text-containersecondhelth {
+    width: 60%; /* Left side content ka width set kiya */
+    padding-right: 20px; /* Add some spacing to the right side */
+  }
+  
+  
+  
+  .virtual-tour-sectionsecondhelth h2 {
+    padding-top: 50px;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    font-family: "EB Garamond", serif;
+    color:white;
+    letter-spacing: 0;
+    position: relative;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+  .virtual-tour-sectionsecondhelth h2:hover {
+    text-decoration: none;
+  }
+  .virtual-tour-sectionsecondhelth p{
+    margin-top: 40px;
+  }
+
+  .virtual-tour-sectionsecondhelth .heppp{
+    margin-top: 0px;
+    /* font: bold; */
+  }
+  .virtual-tour-sectionsecondhelth .helthpp{
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+     .virtual-tour-sectionsecondhelth .helthpp:hover{
+        text-decoration: none;
+     }
+   
+  
+  .big-boxsecondhelth {
+    width: 34%;
+    max-width: 500px;
+    height: 400px; /* Height ko fixed kiya */
+    /* border: 5px solid #DFDFDF; */
+    background: #FFF;
+    padding: 32px 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font: 1.6rem "Roboto", Helvetica, Arial, sans-serif;
+    color: #011F5B;
+    text-align: center;
+    margin-top: 90px;
+  }
+  
+  .big-boxsecondhelth img{
+    margin-left: 160px;
+  }
+  .big-boxsecondhelth .hehelth{
+    font-family: "EB Garamond", serif;
+      font-size: 2rem;
+      color: #011F5B;
+      position: relative;
+      font-weight: 400;
+      margin-bottom: 2.5rem;
+        cursor: pointer;
+  }
+  .big-boxsecondhelth .hehelth:hover{
+    text-decoration: underline;
+  }
+
+  
+  .big-boxsecondhelth .hwhelth{
+    font-family: "EB Garamond", serif;
+    font-size: 1rem;
+    color: #011F5B;
+    line-height: 1.142857143;
+    margin-bottom: 1.3rem;
+    /* padding-left: 10px; */
+  }
+  .big-boxsecondhelth .hwhelthpo{
+    font-family: "EB Garamond", serif;
+    font-size: 1rem;
+    color: #011F5B;
+    line-height: 1.142857143;
+    margin-bottom: 1.3rem;
+    /* padding-left: 10px; */
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .big-boxsecondhelth .hwhelthpo:hover{
+    text-decoration: none;
+  }
+
+  
+  .virtual-tour-sectionsecondhelth::after{
+    content: '';
+    display: block;
+    position: absolute; /* Absolute positioning relative to the container */
+    bottom: -70px; /* Container ke niche line draw karega */
+    left: 0; /* Start from left */
+    width: 100%; /* Full width of the container */
+    height: 2px;
+    background: #f5f2f2; /* Line ka color */ 
+    /* margin-top: 20px; */
+    /* margin-bottom: 10px; */
+  }
+
+
+
+
+
+  
+
+.about-sectionhelth {
+    background: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+    /* height: 10px; */
+  }
+  
+  .about-sectionhelth > div {
+    width: 32%;
+    height: 300px;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative; /* Position content inside */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .about-sectionhelth > div:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+  
+  .about-sectionhelth p {
+    font-size: 14px;
+    color: #434343;
+    margin-bottom: -1em;
+    font-size: 17px;
+    line-height: 1.647058824;
+  }
+  .about-sectionhelth p:hover {
+    text-decoration: underline;
+  }
+  .about-sectionhelth .dece{
+    margin-top: 90px; /* Space below the title text */
+    font-size: 15px; 
+    color:#011F5B; 
+    position: relative;
+  }
+  
+  .about-sectionhelth img {
+    width: 100%;
+    height: 85%;
+    object-fit: cover; /* Maintain aspect ratio without distortion */
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .about-sectionhelth img:hover {
+    transform: scale(1.05); /* Add zoom effect on hover */
+  }
+  
+  /* Position the content outside the box */
+  .about-sectionhelth > div p {
+    position: absolute;
+    bottom: -20px; 
+    /* left: 20px; */
+    width: calc(100% - 40px);
+    /* font-size: 20px; */
+    /* color: #434343; */
+    font-family: "EB Garamond", serif;
+      font-weight: 400;
+      font-size: 1.4rem;
+      color: #011F5B;
+      line-height: 1.3;
+      /* margin-bottom: px; */
+  }
+  
+  
+  .studentshelth h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    color: #011F5B;
+    letter-spacing: 0;
+    position: relative;
+    /* font-weight: 400; */
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-top: 0;
+    padding-top: 90px;
+  }
+  
+  .studentshelth h2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    background: #011F5B;
+    opacity: .4;
+    width: 40px;
+    height: 4px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+.icohousehelth {
+    background-image: url('https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2023-06/africa-galleries_0.jpeg?h=450dfede&amp;itok=bnO-5nTU');
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating of the image */
+    width: 100%; /* Set the desired width */
+    height: 600px; /* Set the desired height */
+    position: relative; /* Use relative or static if not inside another positioned element */
+    opacity: 1; /* Ensure full visibility */
+    display: block; /* Ensure the div is visible */
+    transition: opacity 0.35s ease; /* Smooth transition if needed */
+}
+
+
+.explore-sectiongrouphousehelth {
+    text-align: left; /* Left align the heading */
+    font-family: Arial, sans-serif; /* Optional: Customize the font */
+    padding-left: 10%; /* Adjust padding to push the content left */
+}
+
+.explore-sectiongrouphousehelth h1 {
+    font-family: "EB Garamond", serif;
+    color: #011F5B;
+    letter-spacing: 0;
+    position: relative;
+    font-weight: 400;
+    color: #fff;
+    font-size: 2.8rem;
+    padding-bottom: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 100px;
+}
+
+.grid-containergrouphousehelth {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+    gap: 20px; /* Spacing between boxes */
+    padding-left: 10px;
+    padding-right: 270px;
+}
+
+.grid-itemgrouphousehelth {
+    background-color:#011F5B; /* Light background for boxes */
+    cursor: pointer;
+    color: white; /* Text color */
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    font-size: 1em; /* Font size */
+    text-align: center; /* Center align the text */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+    text-transform: uppercase;
+}
+
+.grid-itemgrouphousehelth:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    background-color: white;
+    color: #011F5B;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
