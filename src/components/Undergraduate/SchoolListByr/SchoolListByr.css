@@ -1,0 +1,13 @@
+.school-list-byr {
+    flex: 2;
+    padding: 20px;
+    color: black;
+  }
+  
+  @media (max-width: 1024px) {
+    .school-list-byr {
+      padding: 10px;
+    }
+  }
+  
+  

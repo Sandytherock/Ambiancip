@@ -19,6 +19,7 @@ import Houseing from './components/Houseinganddining/Houseing'
 import ResearchandNewsMain from './components/ResearchandNews/ResearchandNewsMain'
 import ResearchandEnterpriseMain from './components/ResearchandEnterprise/ResearchandEnterpriseMain'
 import HealthandWellness from './components/HealthandWellness/HealthandWellness'
+import UndergraguateMainbyr from './components/Undergraduate/UndergraduateMainbyr'
 function App() {
   return (
     <Router>
@@ -82,6 +83,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/health-wellness' element={<HealthandWellness/>}/>
+        </Routes>
+        <Routes>
+          <Route path='/undergraduate' element={<UndergraguateMainbyr/>}/>
         </Routes>
         
       </main>

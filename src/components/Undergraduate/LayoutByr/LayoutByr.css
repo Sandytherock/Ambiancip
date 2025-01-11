@@ -1,0 +1,41 @@
+.layout-byr {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .content-byr {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .large-photo-byr {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .large-photo-byr img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 1024px) {
+    .content-byr {
+      flex-direction: column;
+    }
+  
+    .large-photo-byr {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .layout-byr {
+      padding: 10px;
+    }
+  }
+  
+  

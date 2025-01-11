@@ -1,0 +1,39 @@
+#root{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+  }
+  .containernews {
+    max-width: 100%;
+    margin-top: 150px;
+    padding: 2rem 1rem;
+  }
+  
+  .content {
+  
+    flex-direction: column;
+    gap: 2rem;
+  
+  
+  .imageContent {
+    max-width: 800px !important;
+    margin: auto;
+  }
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+    .containernews {
+      padding: 3rem 1rem;
+    }
+  
+    .content {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+  
+  }
+  
+  

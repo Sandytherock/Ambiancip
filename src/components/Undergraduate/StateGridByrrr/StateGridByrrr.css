@@ -1,0 +1,72 @@
+.stats-container-byrrr {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .title-byrrr {
+    text-align: center;
+    color: #1a237e;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .title-byrrr::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: #ccc;
+  }
+  
+  .stats-grid-byrrr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .stat-item-byrrr {
+    position: relative;
+  }
+  
+  .divider-byrrr {
+    position: absolute;
+    right: -10px;
+    top: 10%;
+    height: 80%;
+    width: 1px;
+    background-color: #ccc;
+  }
+  
+  .stat-item-byrrr:nth-child(3) .divider-byrrr {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .stats-grid-byrrr {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+  
+    .divider-byrrr {
+      display: none;
+    }
+  
+    .title-byrrr {
+      font-size: 2rem;
+    }
+    .stat-item-byrrr {
+      padding: 20px 0;
+      border-top: 1px solid #ccc;
+    }
+  
+    .stat-item-byrrr:last-child {
+      border-bottom: 1px solid #ccc;
+    }
+  }
+  
+  

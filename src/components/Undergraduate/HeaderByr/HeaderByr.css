@@ -1,0 +1,21 @@
+.header-byr {
+    margin: 20px 0;
+    color: black;
+  }
+  
+  .header-byr h1 {
+    font-size: 48px;
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    border-bottom: 4px solid #990000;
+    display: inline-block;
+  }
+  
+  @media (max-width: 768px) {
+    .header-byr h1 {
+      font-size: 36px;
+    }
+  }
+  
+  

@@ -1,0 +1,29 @@
+.header-byrr {
+    padding: 20px 0;
+    max-width: 800px;
+  }
+  
+  .header-byrr h1 {
+    color: #011F5B;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .header-byrr p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .header-byrr h1 {
+      font-size: 2rem;
+    }
+    
+    .header-byrr p {
+      font-size: 1rem;
+    }
+  }
+  
+  
