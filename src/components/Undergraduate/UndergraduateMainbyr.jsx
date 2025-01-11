@@ -4,7 +4,7 @@ import LayoutByr from './LayoutByr/LayoutByr'
 import LayoutByrr from './LayoutByrr/LayoutByrr'
 import './UndergraduateFactsByrrr.css';
 import StatGridByrrr from '../Undergraduate/StateGridByrrr/StateGridByrrr.jsx';
-import ApplyByr from './ApplyByr/ApplyByr.jsx';
+import ApplyByr from './../Undergraduate/ApplyByr/ApplyByr.jsx';
 import UniversityPageForl from './UnversityPageForl/UniversityPageForl.jsx';
 import Header from '../Header/Header.jsx';
 
