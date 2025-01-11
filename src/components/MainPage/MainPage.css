@@ -178,7 +178,7 @@ body {
   height: 600px;
   padding: 40px;
   padding-inline-start: 100px;
-  background: url('background2.jpg');
+  background: url('../../../public/background2.jpg');
   text-align: center;
   display: flex;
   align-items: center;

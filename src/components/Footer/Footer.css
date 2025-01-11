@@ -6,7 +6,7 @@
 .footerContainer{
     height: 80dvh;
     width: 100%;
-    background:  linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('footerbg.jpg');
+    background:  linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../../../public/footerbg.jpg');
     background-size: cover;
     padding: 30px;
     display: flex;
